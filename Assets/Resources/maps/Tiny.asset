@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4adff4e42192a787a1ebbaba84ff83b8, type: 3}
+  m_Name: "Tiny"
+  m_EditorClassIdentifier: 
+  UniqueIdentity: "5b8c90b2-59fb-4fc7-9915-229cbc04ef0d"
+  Description: "This map is designed to fit your monitor, it's that small"
+  Thumbnail: {fileID: 21300000, guid: 76450161296945169cdf76d000647a27, type: 3}
+  Preview: {fileID: 21300000, guid: f8219192b7fa45e9a902dcdb0088ed75, type: 3}
+  Prefab: {fileID: 1791060650251977919, guid: 937f79836a534cb69f4b12561857abaa, type: 2}

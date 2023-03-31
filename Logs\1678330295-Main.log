@@ -1,0 +1,696 @@
+20.25 [LOG] Action drag is in universe All
+20.25 [LOG] Action delete is in universe All
+20.25 [LOG] Action activateDirect is in universe Game
+20.25 [LOG] Action slowmo is in universe Game
+20.25 [LOG] Action toggleLimbStatus is in universe Game
+20.25 [LOG] Action time is in universe Game
+20.25 [LOG] Action tool1 is in universe Game
+20.25 [LOG] Action tool2 is in universe Game
+20.25 [LOG] Action tool3 is in universe Game
+20.25 [LOG] Action tool4 is in universe Game
+20.25 [LOG] Action tool5 is in universe Game
+20.25 [LOG] Action tool6 is in universe Game
+20.25 [LOG] Action tool7 is in universe Game
+20.25 [LOG] Action tool8 is in universe Game
+20.25 [LOG] Action tool9 is in universe Game
+20.25 [LOG] Action spawnLeft is in universe Game
+20.25 [LOG] Action spawnRight is in universe Game
+20.25 [LOG] Action left is in universe All
+20.25 [LOG] Action right is in universe All
+20.25 [LOG] Action fast is in universe All
+20.25 [LOG] Action undo is in universe All
+20.25 [LOG] Action snap is in universe All
+20.25 [LOG] Action snapToCenter is in universe Game
+20.25 [LOG] Action copy is in universe All
+20.25 [LOG] Action paste is in universe All
+20.25 [LOG] Action context is in universe All
+20.25 [LOG] Action igniteSelection is in universe Game
+20.25 [LOG] Action freezeSelection is in universe Game
+20.25 [LOG] Action resizeSelection is in universe Game
+20.25 [LOG] Action toggleThermalVision is in universe Game
+20.25 [LOG] Action eyedrop is in universe All
+20.25 [LOG] Action pause is in universe All
+20.25 [LOG] Action toybox is in universe All
+20.25 [LOG] Action toolPowerToggle is in universe Game
+20.25 [LOG] Action toggleHoveringHighlights is in universe Game
+20.25 [LOG] Action pan is in universe All
+20.25 [LOG] Action panRight is in universe All
+20.25 [LOG] Action panLeft is in universe All
+20.25 [LOG] Action panUp is in universe All
+20.25 [LOG] Action panDown is in universe All
+20.25 [LOG] Action zoomIn is in universe All
+20.25 [LOG] Action zoomOut is in universe All
+20.25 [ERROR] Destroying assets is not permitted to avoid data loss.
+If you really want to remove an asset use DestroyImmediate (theObject, true);
+	UnityEngine.Object:Destroy (UnityEngine.Object)
+LightRenderCameraBehaviour:ResetRT () (at Assets/Scripts/LightRenderCameraBehaviour.cs:25)
+LightRenderCameraBehaviour:Start () (at Assets/Scripts/LightRenderCameraBehaviour.cs:17)
+
+
+20.25 [LOG] New light overlay texture created: True, 1920x1080
+20.25 [EXCEPTION] NullReferenceException: Object reference not set to an instance of an object
+	LightRenderCameraBehaviour.ResetRT () (at Assets/Scripts/LightRenderCameraBehaviour.cs:29)
+LightRenderCameraBehaviour.Start () (at Assets/Scripts/LightRenderCameraBehaviour.cs:17)
+
+
+20.25 [WARNING] Exposed name does not exist: master
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:29)
+MixerControllerBehaviour:Start () (at Assets/Scripts/MixerControllerBehaviour.cs:38)
+
+
+20.25 [WARNING] Exposed name does not exist: sfx
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:30)
+MixerControllerBehaviour:Start () (at Assets/Scripts/MixerControllerBehaviour.cs:38)
+
+
+20.25 [WARNING] Exposed name does not exist: userInterface
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:31)
+MixerControllerBehaviour:Start () (at Assets/Scripts/MixerControllerBehaviour.cs:38)
+
+
+20.25 [WARNING] Exposed name does not exist: ambience
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:32)
+MixerControllerBehaviour:Start () (at Assets/Scripts/MixerControllerBehaviour.cs:38)
+
+
+20.25 [WARNING] Exposed name does not exist: cracking_threshold
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:33)
+MixerControllerBehaviour:Start () (at Assets/Scripts/MixerControllerBehaviour.cs:38)
+
+
+20.25 [LOG] {
+  "CollisionQuality": 2,
+  "StopAnimationOnDamage": false,
+  "DropOnDeath": true,
+  "ShakeIntensity": 1.0,
+  "ShowOutlines": true,
+  "SlowMotionSpeed": 20.0,
+  "AmbientTemperatureTransfer": false,
+  "PhysicsIterations": 16,
+  "ShowModLoadingFreeze": true,
+  "RejectShadyCode": true,
+  "MaxModCompilationTime": 30,
+  "GorelessMode": false,
+  "LimbCrushing": true,
+  "LimbOverflowExplosion": false,
+  "GoreMode": 0,
+  "AutoHealWounds": true,
+  "ChunkyShotParticles": true,
+  "DismembermentLooseTissue": true,
+  "CrushForceMultiplier": 1.0,
+  "BloomMode": 2,
+  "TracerBullets": true,
+  "FancyEffects": true,
+  "Decals": true,
+  "Lighting": true,
+  "MasterVolume": 1.0,
+  "SfxVolume": 1.0,
+  "UserInterfaceVolume": 1.0,
+  "AmbienceVolume": 1.0,
+  "AmbienceHighpassCutoff": 90.0,
+  "ClampVolume": true,
+  "DistantSoundEffects": true,
+  "LogDebugMessages": false,
+  "ShowFramerate": false,
+  "ZoomSensitivity": 1.0,
+  "ThermalVisionUpdateRate": 25,
+  "DeleteWireByContextMenu": true,
+  "TemperatureUnit": 0,
+  "VSync": false,
+  "SMAA": false,
+  "TonemappingMode": 0,
+  "Brightness": 100.0,
+  "RenderScale": 1.0,
+  "FramerateLimit": 144,
+  "SimplifiedBackground": false,
+  "WindowMode": 1,
+  "Resolution": null,
+  "ShowTutorial": false,
+  "ToyboxSizeOffset": 483.6
+}
+20.25 [WARNING] Exposed name does not exist: master
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:29)
+Global:SetPausedMenu (bool,string) (at Assets/Scripts/Global.cs:237)
+Global:Start () (at Assets/Scripts/Global.cs:350)
+
+
+20.25 [WARNING] Exposed name does not exist: sfx
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:30)
+Global:SetPausedMenu (bool,string) (at Assets/Scripts/Global.cs:237)
+Global:Start () (at Assets/Scripts/Global.cs:350)
+
+
+20.25 [WARNING] Exposed name does not exist: userInterface
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:31)
+Global:SetPausedMenu (bool,string) (at Assets/Scripts/Global.cs:237)
+Global:Start () (at Assets/Scripts/Global.cs:350)
+
+
+20.25 [WARNING] Exposed name does not exist: ambience
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:32)
+Global:SetPausedMenu (bool,string) (at Assets/Scripts/Global.cs:237)
+Global:Start () (at Assets/Scripts/Global.cs:350)
+
+
+20.25 [WARNING] Exposed name does not exist: cracking_threshold
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:33)
+Global:SetPausedMenu (bool,string) (at Assets/Scripts/Global.cs:237)
+Global:Start () (at Assets/Scripts/Global.cs:350)
+
+
+20.25 [WARNING] The referenced script (Unknown) on this Behaviour is missing!
+	UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Transform)
+MapConfig:PrepareWeatherInstance (UnityEngine.GameObject) (at Assets/Scripts/MapConfig.cs:155)
+MapConfig:Reinitialise () (at Assets/Scripts/MapConfig.cs:106)
+MapConfig:Start () (at Assets/Scripts/MapConfig.cs:139)
+
+
+20.25 [WARNING] The referenced script on this Behaviour (Game Object 'post') is missing!
+	UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Transform)
+MapConfig:PrepareWeatherInstance (UnityEngine.GameObject) (at Assets/Scripts/MapConfig.cs:155)
+MapConfig:Reinitialise () (at Assets/Scripts/MapConfig.cs:106)
+MapConfig:Start () (at Assets/Scripts/MapConfig.cs:139)
+
+
+20.25 [WARNING] The referenced script on this Behaviour (Game Object 'post') is missing!
+	UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Transform)
+MapConfig:PrepareWeatherInstance (UnityEngine.GameObject) (at Assets/Scripts/MapConfig.cs:155)
+MapConfig:Reinitialise () (at Assets/Scripts/MapConfig.cs:106)
+MapConfig:Start () (at Assets/Scripts/MapConfig.cs:139)
+
+
+20.25 [EXCEPTION] NullReferenceException: Object reference not set to an instance of an object
+	MapConfig.ApplySettings (EnvironmentalSettings settings) (at Assets/Scripts/MapConfig.cs:186)
+MapConfig.Reinitialise () (at Assets/Scripts/MapConfig.cs:132)
+MapConfig.Start () (at Assets/Scripts/MapConfig.cs:139)
+
+
+39.45 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:IncrementInteger (StatManager/Stat,int) (at Assets/Scripts/StatManager.cs:111)
+CatalogBehaviour:Spawn (SpawnableAsset,bool) (at Assets/Scripts/CatalogBehaviour.cs:430)
+CatalogBehaviour:Update () (at Assets/Scripts/CatalogBehaviour.cs:378)
+
+
+44.12 [WARNING] Attempt to refresh outline before outline initialisation
+	UnityEngine.Debug:LogWarning (object)
+PhysicalBehaviour:RefreshOutline () (at Assets/Scripts/PhysicalBehaviour.cs:843)
+RandomSpriteBehaviour:SetSpriteToIndex () (at Assets/Scripts/RandomSpriteBehaviour.cs:58)
+RandomSpriteBehaviour:Awake () (at Assets/Scripts/RandomSpriteBehaviour.cs:35)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+CatalogBehaviour:Spawn (SpawnableAsset,bool) (at Assets/Scripts/CatalogBehaviour.cs:416)
+CatalogBehaviour:Update () (at Assets/Scripts/CatalogBehaviour.cs:378)
+
+
+44.12 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:IncrementInteger (StatManager/Stat,int) (at Assets/Scripts/StatManager.cs:111)
+CatalogBehaviour:Spawn (SpawnableAsset,bool) (at Assets/Scripts/CatalogBehaviour.cs:430)
+CatalogBehaviour:Update () (at Assets/Scripts/CatalogBehaviour.cs:378)
+
+
+62.02 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:IncrementInteger (StatManager/Stat,int) (at Assets/Scripts/StatManager.cs:111)
+CatalogBehaviour:Spawn (SpawnableAsset,bool) (at Assets/Scripts/CatalogBehaviour.cs:430)
+CatalogBehaviour:Update () (at Assets/Scripts/CatalogBehaviour.cs:378)
+
+
+66.29 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:IncrementInteger (StatManager/Stat,int) (at Assets/Scripts/StatManager.cs:111)
+CatalogBehaviour:Spawn (SpawnableAsset,bool) (at Assets/Scripts/CatalogBehaviour.cs:430)
+CatalogBehaviour:Update () (at Assets/Scripts/CatalogBehaviour.cs:378)
+
+
+72.8 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:IncrementInteger (StatManager/Stat,int) (at Assets/Scripts/StatManager.cs:111)
+CatalogBehaviour:Spawn (SpawnableAsset,bool) (at Assets/Scripts/CatalogBehaviour.cs:430)
+CatalogBehaviour:Update () (at Assets/Scripts/CatalogBehaviour.cs:378)
+
+
+77.73 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:IncrementInteger (StatManager/Stat,int) (at Assets/Scripts/StatManager.cs:111)
+CatalogBehaviour:Spawn (SpawnableAsset,bool) (at Assets/Scripts/CatalogBehaviour.cs:430)
+CatalogBehaviour:Update () (at Assets/Scripts/CatalogBehaviour.cs:378)
+
+
+82.59 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:IncrementInteger (StatManager/Stat,int) (at Assets/Scripts/StatManager.cs:111)
+CatalogBehaviour:Spawn (SpawnableAsset,bool) (at Assets/Scripts/CatalogBehaviour.cs:430)
+CatalogBehaviour:Update () (at Assets/Scripts/CatalogBehaviour.cs:378)
+
+
+94.95 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:IncrementInteger (StatManager/Stat,int) (at Assets/Scripts/StatManager.cs:111)
+CatalogBehaviour:Spawn (SpawnableAsset,bool) (at Assets/Scripts/CatalogBehaviour.cs:430)
+CatalogBehaviour:Update () (at Assets/Scripts/CatalogBehaviour.cs:378)
+
+
+100.23 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:IncrementInteger (StatManager/Stat,int) (at Assets/Scripts/StatManager.cs:111)
+CatalogBehaviour:Spawn (SpawnableAsset,bool) (at Assets/Scripts/CatalogBehaviour.cs:430)
+CatalogBehaviour:Update () (at Assets/Scripts/CatalogBehaviour.cs:378)
+
+
+126.95 [WARNING] Attempt to refresh outline before outline initialisation
+	UnityEngine.Debug:LogWarning (object)
+PhysicalBehaviour:RefreshOutline () (at Assets/Scripts/PhysicalBehaviour.cs:843)
+RandomSpriteBehaviour:SetSpriteToIndex () (at Assets/Scripts/RandomSpriteBehaviour.cs:58)
+RandomSpriteBehaviour:Awake () (at Assets/Scripts/RandomSpriteBehaviour.cs:35)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+CatalogBehaviour:Spawn (SpawnableAsset,bool) (at Assets/Scripts/CatalogBehaviour.cs:416)
+CatalogBehaviour:Update () (at Assets/Scripts/CatalogBehaviour.cs:378)
+
+
+126.95 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:IncrementInteger (StatManager/Stat,int) (at Assets/Scripts/StatManager.cs:111)
+CatalogBehaviour:Spawn (SpawnableAsset,bool) (at Assets/Scripts/CatalogBehaviour.cs:430)
+CatalogBehaviour:Update () (at Assets/Scripts/CatalogBehaviour.cs:378)
+
+
+139.62 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:IncrementInteger (StatManager/Stat,int) (at Assets/Scripts/StatManager.cs:111)
+CatalogBehaviour:Spawn (SpawnableAsset,bool) (at Assets/Scripts/CatalogBehaviour.cs:430)
+CatalogBehaviour:Update () (at Assets/Scripts/CatalogBehaviour.cs:378)
+
+
+160.04 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:IncrementInteger (StatManager/Stat,int) (at Assets/Scripts/StatManager.cs:111)
+CatalogBehaviour:Spawn (SpawnableAsset,bool) (at Assets/Scripts/CatalogBehaviour.cs:430)
+CatalogBehaviour:Update () (at Assets/Scripts/CatalogBehaviour.cs:378)
+
+
+177.97 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:IncrementInteger (StatManager/Stat,int) (at Assets/Scripts/StatManager.cs:111)
+CatalogBehaviour:Spawn (SpawnableAsset,bool) (at Assets/Scripts/CatalogBehaviour.cs:430)
+CatalogBehaviour:Update () (at Assets/Scripts/CatalogBehaviour.cs:378)
+
+
+201.8 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:IncrementInteger (StatManager/Stat,int) (at Assets/Scripts/StatManager.cs:111)
+CatalogBehaviour:Spawn (SpawnableAsset,bool) (at Assets/Scripts/CatalogBehaviour.cs:430)
+CatalogBehaviour:Update () (at Assets/Scripts/CatalogBehaviour.cs:378)
+
+
+211.45 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:IncrementInteger (StatManager/Stat,int) (at Assets/Scripts/StatManager.cs:111)
+CatalogBehaviour:Spawn (SpawnableAsset,bool) (at Assets/Scripts/CatalogBehaviour.cs:430)
+CatalogBehaviour:Update () (at Assets/Scripts/CatalogBehaviour.cs:378)
+
+
+211.57 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+211.61 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+211.62 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+211.63 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+211.64 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+211.65 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+211.66 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+211.7 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+211.75 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+211.77 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+211.78 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+211.8 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+211.82 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+211.84 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+211.85 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+211.87 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+211.88 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+211.92 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+211.97 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+212 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+212.05 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+212.08 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+212.12 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+212.15 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+212.17 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+212.2 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+212.22 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+212.24 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+212.27 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+212.28 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+212.3 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+212.32 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+212.34 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+212.37 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+212.4 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+212.45 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+212.48 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+212.54 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+212.55 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+212.58 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+212.6 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+212.64 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+212.65 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+212.68 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+212.7 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+212.72 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+212.73 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+212.75 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+212.77 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+212.77 [ERROR] Max stat failure count reached: stop trying :(
+	UnityEngine.Debug:LogError (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:79)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+381.86 [LOG] Compiler client stopped and server terminated.
+0 [ERROR] Could not load image /Users/soufianekhramez/Desktop/PP125 Project/Assets/Plugins/System.Runtime.CompilerServices.Unsafe.dll due to Invalid Section Aligmnent 1000
+Run the peverify utility against this for more information.
+0 [EXCEPTION] FileNotFoundException: Could not load file or assembly 'System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies.
+	Ceras.CerasSerializer.Serialize[T] (T obj) (at <077a6b5cd8cc466399b104680bf19c16>:0)
+NonSteamStatManager.SaveToFile (System.String path) (at Assets/Scripts/NonSteamStatManager.cs:74)
+Global.OnDestroy () (at Assets/Scripts/Global.cs:696)
+
+

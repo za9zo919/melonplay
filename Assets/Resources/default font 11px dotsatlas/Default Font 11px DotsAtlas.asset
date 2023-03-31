@@ -1,0 +1,547 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dacb7d2e803cfdce6e02adc7eaa9543d, type: 3}
+  m_Name: "Default Font 11px DotsAtlas"
+  m_EditorClassIdentifier: 
+  texture: {fileID: 2800000, guid: 9e352a0f733843619cce17abce019576, type: 3}
+  xCount: 8
+  yCount: 16
+  rectPixelSize: {x: 16, y: 16}
+  statisticString: "128 rects  16x16 pixels"
+  modificationHash: -1461174070
+  fontSettingsHash: 567112517
+  flipVertical: 0
+  apperance:
+    backgroundBrightness: 0.5
+    labelSize: 1
+    labelsColor: {r: 0.9264288, g: 1, b: 0, a: 1}
+  rects:
+  - x: 0
+    y: 0.9375
+    width: 0
+    height: 1
+  - x: 0.125
+    y: 1
+    width: 0.125
+    height: 0.9375
+  - x: 1.681558E-44
+    y: 0
+    width: 5.605194E-45
+    height: 5.605194E-45
+  - x: 0.125
+    y: 0.9375
+    width: 0.125
+    height: 1
+  - x: 0.25
+    y: 1
+    width: 0.25
+    height: 0.9375
+  - x: 0
+    y: 0
+    width: 2.242078E-44
+    height: 5.605194E-45
+  - x: 0.25
+    y: 0.9375
+    width: 0.25
+    height: 1
+  - x: 0.375
+    y: 1
+    width: 0.375
+    height: 0.9375
+  - x: 0
+    y: 0
+    width: 5.605194E-45
+    height: 5.605194E-45
+  - x: 0.375
+    y: 0.9375
+    width: 0.375
+    height: 1
+  - x: 0.5
+    y: 1
+    width: 0.5
+    height: 0.9375
+  - x: 0
+    y: 0
+    width: 2.242078E-44
+    height: 2.242078E-44
+  - x: 0.5
+    y: 0.9375
+    width: 0.5
+    height: 1
+  - x: 0.625
+    y: 1
+    width: 0.625
+    height: 0.9375
+  - x: 0
+    y: 0
+    width: 2.242078E-44
+    height: 2.242078E-44
+  - x: 0.625
+    y: 0.9375
+    width: 0.625
+    height: 1
+  - x: 0.75
+    y: 1
+    width: 0.75
+    height: 0.9375
+  - x: 0
+    y: 0
+    width: 2.242078E-44
+    height: 2.242078E-44
+  - x: 0.75
+    y: 0.9375
+    width: 0.75
+    height: 1
+  - x: 0.875
+    y: 1
+    width: 0.875
+    height: 0.9375
+  - x: 0
+    y: 0
+    width: 2.242078E-44
+    height: 2.242078E-44
+  - x: 0.875
+    y: 0.9375
+    width: 0.875
+    height: 1
+  - x: 1
+    y: 1
+    width: 1
+    height: 0.9375
+  - x: 0
+    y: 0
+    width: 2.242078E-44
+    height: 2.242078E-44
+  - x: 0
+    y: 0.875
+    width: 0
+    height: 0.9375
+  - x: 0.125
+    y: 0.9375
+    width: 0.125
+    height: 0.875
+  - x: 1.681558E-44
+    y: 0
+    width: 5.605194E-45
+    height: 2.242078E-44
+  - x: 0.125
+    y: 0.875
+    width: 0.125
+    height: 0.9375
+  - x: 0.25
+    y: 0.9375
+    width: 0.25
+    height: 0.875
+  - x: 0
+    y: 0
+    width: 2.242078E-44
+    height: 2.242078E-44
+  - x: 0.25
+    y: 0.875
+    width: 0.25
+    height: 0.9375
+  - x: 0.375
+    y: 0.9375
+    width: 0.375
+    height: 0.875
+  - x: 0
+    y: 0
+    width: 5.605194E-45
+    height: 2.242078E-44
+  - x: 0.375
+    y: 0.875
+    width: 0.375
+    height: 0.9375
+  - x: 0.5
+    y: 0.9375
+    width: 0.5
+    height: 0.875
+  - x: 0
+    y: 0
+    width: 2.242078E-44
+    height: 2.242078E-44
+  - x: 0.5
+    y: 0.875
+    width: 0.5
+    height: 0.9375
+  - x: 0.625
+    y: 0.9375
+    width: 0.625
+    height: 0.875
+  - x: 0
+    y: 0
+    width: 2.242078E-44
+    height: 2.242078E-44
+  - x: 0.625
+    y: 0.875
+    width: 0.625
+    height: 0.9375
+  - x: 0.75
+    y: 0.9375
+    width: 0.75
+    height: 0.875
+  - x: 0
+    y: 0
+    width: 2.242078E-44
+    height: 2.242078E-44
+  - x: 0.75
+    y: 0.875
+    width: 0.75
+    height: 0.9375
+  - x: 0.875
+    y: 0.9375
+    width: 0.875
+    height: 0.875
+  - x: 0
+    y: 0
+    width: 2.242078E-44
+    height: 2.242078E-44
+  - x: 0.875
+    y: 0.875
+    width: 0.875
+    height: 0.9375
+  - x: 1
+    y: 0.9375
+    width: 1
+    height: 0.875
+  - x: 0
+    y: 0
+    width: 2.242078E-44
+    height: 2.242078E-44
+  - x: 0
+    y: 0.8125
+    width: 0
+    height: 0.875
+  - x: 0.125
+    y: 0.875
+    width: 0.125
+    height: 0.8125
+  - x: 1.681558E-44
+    y: 1.681558E-44
+    width: 5.605194E-45
+    height: 5.605194E-45
+  - x: 0.125
+    y: 0.8125
+    width: 0.125
+    height: 0.875
+  - x: 0.25
+    y: 0.875
+    width: 0.25
+    height: 0.8125
+  - x: 0
+    y: 1.681558E-44
+    width: 2.242078E-44
+    height: 5.605194E-45
+  - x: 0.25
+    y: 0.8125
+    width: 0.25
+    height: 0.875
+  - x: 0.375
+    y: 0.875
+    width: 0.375
+    height: 0.8125
+  - x: 0
+    y: 1.681558E-44
+    width: 5.605194E-45
+    height: 5.605194E-45
+  - x: 0.375
+    y: 0.8125
+    width: 0.375
+    height: 0.875
+  - x: 0.5
+    y: 0.875
+    width: 0.5
+    height: 0.8125
+  - x: 0
+    y: 0
+    width: 2.242078E-44
+    height: 2.242078E-44
+  - x: 0.5
+    y: 0.8125
+    width: 0.5
+    height: 0.875
+  - x: 0.625
+    y: 0.875
+    width: 0.625
+    height: 0.8125
+  - x: 0
+    y: 0
+    width: 2.242078E-44
+    height: 2.242078E-44
+  - x: 0.625
+    y: 0.8125
+    width: 0.625
+    height: 0.875
+  - x: 0.75
+    y: 0.875
+    width: 0.75
+    height: 0.8125
+  - x: 0
+    y: 0
+    width: 2.242078E-44
+    height: 2.242078E-44
+  - x: 0.75
+    y: 0.8125
+    width: 0.75
+    height: 0.875
+  - x: 0.875
+    y: 0.875
+    width: 0.875
+    height: 0.8125
+  - x: 0
+    y: 0
+    width: 2.242078E-44
+    height: 2.242078E-44
+  - x: 0.875
+    y: 0.8125
+    width: 0.875
+    height: 0.875
+  - x: 1
+    y: 0.875
+    width: 1
+    height: 0.8125
+  - x: 0
+    y: 0
+    width: 2.242078E-44
+    height: 2.242078E-44
+  - x: 0
+    y: 0.75
+    width: 0
+    height: 0.8125
+  - x: 0.125
+    y: 0.8125
+    width: 0.125
+    height: 0.75
+  - x: 0
+    y: 0
+    width: 2.242078E-44
+    height: 2.242078E-44
+  - x: 0.125
+    y: 0.75
+    width: 0.125
+    height: 0.8125
+  - x: 0.25
+    y: 0.8125
+    width: 0.25
+    height: 0.75
+  - x: 0
+    y: 0
+    width: 2.242078E-44
+    height: 2.242078E-44
+  - x: 0.25
+    y: 0.75
+    width: 0.25
+    height: 0.8125
+  - x: 0.375
+    y: 0.8125
+    width: 0.375
+    height: 0.75
+  - x: 0
+    y: 0
+    width: 2.242078E-44
+    height: 2.242078E-44
+  - x: 0.375
+    y: 0.75
+    width: 0.375
+    height: 0.8125
+  - x: 0.5
+    y: 0.8125
+    width: 0.5
+    height: 0.75
+  - x: 0
+    y: 0
+    width: 2.242078E-44
+    height: 2.242078E-44
+  - x: 0.5
+    y: 0.75
+    width: 0.5
+    height: 0.8125
+  - x: 0.625
+    y: 0.8125
+    width: 0.625
+    height: 0.75
+  - x: 0
+    y: 0
+    width: 2.242078E-44
+    height: 2.242078E-44
+  - x: 0.625
+    y: 0.75
+    width: 0.625
+    height: 0.8125
+  - x: 0.75
+    y: 0.8125
+    width: 0.75
+    height: 0.75
+  - x: 0
+    y: 0
+    width: 2.242078E-44
+    height: 2.242078E-44
+  - x: 0.75
+    y: 0.75
+    width: 0.75
+    height: 0.8125
+  - x: 0.875
+    y: 0.8125
+    width: 0.875
+    height: 0.75
+  - x: 0
+    y: 0
+    width: 2.242078E-44
+    height: 2.242078E-44
+  - x: 0.875
+    y: 0.75
+    width: 0.875
+    height: 0.8125
+  - x: 1
+    y: 0.8125
+    width: 1
+    height: 0.75
+  - x: 0
+    y: 0
+    width: 2.242078E-44
+    height: 2.242078E-44
+  - x: 0
+    y: 0.6875
+    width: 0
+    height: 0.75
+  - x: 0.125
+    y: 0.75
+    width: 0.125
+    height: 0.6875
+  - x: 0
+    y: 0
+    width: 2.242078E-44
+    height: 2.242078E-44
+  - x: 0.125
+    y: 0.6875
+    width: 0.125
+    height: 0.75
+  - x: 0.25
+    y: 0.75
+    width: 0.25
+    height: 0.6875
+  - x: 9.809089E-45
+    y: 5.605194E-45
+    width: 1.401298E-45
+    height: 1.121039E-44
+  - x: 0.25
+    y: 0.6875
+    width: 0.25
+    height: 0.75
+  - x: 0.375
+    y: 0.75
+    width: 0.375
+    height: 0.6875
+  - x: 9.809089E-45
+    y: 1.121039E-44
+    width: 4.203895E-45
+    height: 4.203895E-45
+  - x: 0.375
+    y: 0.6875
+    width: 0.375
+    height: 0.75
+  - x: 0.5
+    y: 0.75
+    width: 0.5
+    height: 0.6875
+  - x: 7.006492E-45
+    y: 5.605194E-45
+    width: 7.006492E-45
+    height: 9.809089E-45
+  - x: 0.5
+    y: 0.6875
+    width: 0.5
+    height: 0.75
+  - x: 0.625
+    y: 0.75
+    width: 0.625
+    height: 0.6875
+  - x: 7.006492E-45
+    y: 4.203895E-45
+    width: 7.006492E-45
+    height: 1.261169E-44
+  - x: 0.625
+    y: 0.6875
+    width: 0.625
+    height: 0.75
+  - x: 0.75
+    y: 0.75
+    width: 0.75
+    height: 0.6875
+  - x: 7.006492E-45
+    y: 5.605194E-45
+    width: 7.006492E-45
+    height: 9.809089E-45
+  - x: 0.75
+    y: 0.6875
+    width: 0.75
+    height: 0.75
+  - x: 0.875
+    y: 0.75
+    width: 0.875
+    height: 0.6875
+  - x: 7.006492E-45
+    y: 5.605194E-45
+    width: 7.006492E-45
+    height: 9.809089E-45
+  - x: 0.875
+    y: 0.6875
+    width: 0.875
+    height: 0.75
+  - x: 1
+    y: 0.75
+    width: 1
+    height: 0.6875
+  - x: 1.121039E-44
+    y: 9.809089E-45
+    width: 1.401298E-45
+    height: 4.203895E-45
+  - x: 0
+    y: 0.625
+    width: 0
+    height: 0.6875
+  - x: 0.125
+    y: 0.6875
+    width: 0.125
+    height: 0.625
+  - x: 7.006492E-45
+    y: 4.203895E-45
+    width: 4.203895E-45
+    height: 1.261169E-44
+  - x: 0.125
+    y: 0.625
+    width: 0.125
+    height: 0.6875
+  - x: 0.25
+    y: 0.6875
+    width: 0.25
+    height: 0.625
+  - x: 9.809089E-45
+    y: 4.203895E-45
+    width: 4.203895E-45
+    height: 1.261169E-44
+  - x: 0.25
+    y: 0.625
+    width: 0.25
+    height: 0.6875
+  - x: 0.375
+    y: 0.6875
+    width: 0.375
+    height: 0.625
+  fontSettingsFoldout: 1
+  isFontAtlas: 1
+  whitespaceWidth: 5
+  horizontalSpacing: 5
+  monowidth: 0
+  enableRemapping: 0
+  resetIndexOffset: 1052770304
+  remappingIndexTable: []

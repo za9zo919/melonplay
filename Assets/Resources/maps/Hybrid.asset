@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4adff4e42192a787a1ebbaba84ff83b8, type: 3}
+  m_Name: "Hybrid"
+  m_EditorClassIdentifier: 
+  UniqueIdentity: "1f444372-71ce-4862-a02e-708d82eb9dc0"
+  Description: "Valley with an extremely deep water body and a flat surface to the
+  right. There is a tunnel that runs under it."
+  Thumbnail: {fileID: 21300000, guid: d902bc6563f44cd3b54c7ec98f3127b9, type: 3}
+  Preview: {fileID: 21300000, guid: 3482e1fea04b4adca1f815071fe7dd87, type: 3}
+  Prefab: {fileID: 1791060650251976543, guid: 73cbff0f1cd0419a83a27b5d43671b1d, type: 2}

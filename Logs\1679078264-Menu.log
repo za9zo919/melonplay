@@ -1,0 +1,178 @@
+0 [LOG] Action drag is in universe All
+0 [LOG] Action delete is in universe All
+0 [LOG] Action activateDirect is in universe Game
+0 [LOG] Action slowmo is in universe Game
+0 [LOG] Action toggleLimbStatus is in universe Game
+0 [LOG] Action time is in universe Game
+0 [LOG] Action tool1 is in universe Game
+0 [LOG] Action tool2 is in universe Game
+0 [LOG] Action tool3 is in universe Game
+0 [LOG] Action tool4 is in universe Game
+0 [LOG] Action tool5 is in universe Game
+0 [LOG] Action tool6 is in universe Game
+0 [LOG] Action tool7 is in universe Game
+0 [LOG] Action tool8 is in universe Game
+0 [LOG] Action tool9 is in universe Game
+0 [LOG] Action spawnLeft is in universe Game
+0 [LOG] Action spawnRight is in universe Game
+0 [LOG] Action left is in universe All
+0 [LOG] Action right is in universe All
+0 [LOG] Action fast is in universe All
+0 [LOG] Action undo is in universe All
+0 [LOG] Action snap is in universe All
+0 [LOG] Action snapToCenter is in universe Game
+0 [LOG] Action copy is in universe All
+0 [LOG] Action paste is in universe All
+0 [LOG] Action context is in universe All
+0 [LOG] Action igniteSelection is in universe Game
+0 [LOG] Action freezeSelection is in universe Game
+0 [LOG] Action resizeSelection is in universe Game
+0 [LOG] Action toggleThermalVision is in universe Game
+0 [LOG] Action eyedrop is in universe All
+0 [LOG] Action pause is in universe All
+0 [LOG] Action toybox is in universe All
+0 [LOG] Action toolPowerToggle is in universe Game
+0 [LOG] Action toggleHoveringHighlights is in universe Game
+0 [LOG] Action pan is in universe All
+0 [LOG] Action panRight is in universe All
+0 [LOG] Action panLeft is in universe All
+0 [LOG] Action panUp is in universe All
+0 [LOG] Action panDown is in universe All
+0 [LOG] Action zoomIn is in universe All
+0 [LOG] Action zoomOut is in universe All
+0 [LOG] Jukebox not found. Can't load custom jukebox files.
+0 [LOG] {
+  "CollisionQuality": 2,
+  "StopAnimationOnDamage": false,
+  "DropOnDeath": true,
+  "ShakeIntensity": 1.0,
+  "ShowOutlines": true,
+  "SlowMotionSpeed": 20.0,
+  "AmbientTemperatureTransfer": false,
+  "PhysicsIterations": 16,
+  "ShowModLoadingFreeze": true,
+  "RejectShadyCode": true,
+  "MaxModCompilationTime": 30,
+  "GorelessMode": false,
+  "LimbCrushing": true,
+  "LimbOverflowExplosion": false,
+  "GoreMode": 0,
+  "AutoHealWounds": true,
+  "ChunkyShotParticles": true,
+  "DismembermentLooseTissue": true,
+  "CrushForceMultiplier": 1.0,
+  "BloomMode": 2,
+  "TracerBullets": true,
+  "FancyEffects": true,
+  "Decals": true,
+  "Lighting": true,
+  "MasterVolume": 1.0,
+  "SfxVolume": 1.0,
+  "UserInterfaceVolume": 1.0,
+  "AmbienceVolume": 1.0,
+  "AmbienceHighpassCutoff": 90.0,
+  "ClampVolume": true,
+  "DistantSoundEffects": true,
+  "LogDebugMessages": false,
+  "ShowFramerate": false,
+  "ZoomSensitivity": 1.0,
+  "ThermalVisionUpdateRate": 25,
+  "DeleteWireByContextMenu": true,
+  "TemperatureUnit": 0,
+  "VSync": false,
+  "SMAA": false,
+  "TonemappingMode": 0,
+  "Brightness": 100.0,
+  "RenderScale": 1.0,
+  "FramerateLimit": 144,
+  "SimplifiedBackground": false,
+  "WindowMode": 1,
+  "Resolution": null,
+  "ShowTutorial": true,
+  "ToyboxSizeOffset": 483.6
+}
+0 [WARNING] Exposed name does not exist: master
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:29)
+MixerControllerBehaviour:Start () (at Assets/Scripts/MixerControllerBehaviour.cs:38)
+
+
+0 [WARNING] Exposed name does not exist: sfx
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:30)
+MixerControllerBehaviour:Start () (at Assets/Scripts/MixerControllerBehaviour.cs:38)
+
+
+0 [WARNING] Exposed name does not exist: userInterface
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:31)
+MixerControllerBehaviour:Start () (at Assets/Scripts/MixerControllerBehaviour.cs:38)
+
+
+0 [WARNING] Exposed name does not exist: ambience
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:32)
+MixerControllerBehaviour:Start () (at Assets/Scripts/MixerControllerBehaviour.cs:38)
+
+
+0 [WARNING] Exposed name does not exist: cracking_threshold
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:33)
+MixerControllerBehaviour:Start () (at Assets/Scripts/MixerControllerBehaviour.cs:38)
+
+
+0 [LOG] Registered map "Abyss" with ID cce24b21-779f-44e4-a4f5-9cc5c3fc6b18
+0 [LOG] Registered map "Blocks" with ID b77a3f22-10da-4ef5-9dce-0413f15e15c1
+0 [LOG] Registered map "Default" with ID fb813068-e717-45de-a97f-4677a41758e6
+0 [LOG] Registered map "Humongous" with ID 8a2f165e-d4e9-4e6c-b20c-8ffa660c10c8
+0 [LOG] Registered map "Hybrid" with ID 1f444372-71ce-4862-a02e-708d82eb9dc0
+0 [LOG] Registered map "Lava" with ID 498b4aad-0ccc-4167-aee2-324a28cd57ae
+0 [LOG] Registered map "Sea" with ID 35a41d94-8bc7-47a2-93de-3a297955e97c
+0 [LOG] Registered map "Slanted" with ID 75c18cc2-5e0d-4e3c-b966-c852cdd1bb8b
+0 [LOG] Registered map "Small" with ID 544cf3d4-018d-4dd1-b442-b3845e07f1a3
+0 [LOG] Registered map "Snow" with ID 3924fb95-dc1d-43e9-b8b1-b161b91c1f9b
+0 [LOG] Registered map "Tiny" with ID 5b8c90b2-59fb-4fc7-9915-229cbc04ef0d
+0 [LOG] Registered map "Tower" with ID 5bb837ca-bbf1-4b64-a39d-33b0ab684e1d
+0 [LOG] Registered map "Void" with ID 265b1c13-c372-4ea4-8448-09731f0b0985
+0 [LOG] Registered map "Substructure" with ID 004cb5da-0d40-4fc7-aba2-d86a9659c724
+0 [LOG] Attempt load mod at Mods/2473238520/mod.json
+0 [LOG] Loaded mod: One piece Mod
+0 [LOG] Started background loading task: One piece Mod Processing
+3.53 [LOG] Finished background loading task: One piece Mod Processing
+3.53 [WARNING] Could not load mod assembly One piece Mod:
+Value cannot be null.
+Parameter name: rawAssembly
+  at System.AppDomain.Load (System.Byte[] rawAssembly, System.Byte[] rawSymbolStore, System.Security.Policy.Evidence securityEvidence, System.Boolean refonly) [0x00003] in <56a9a46236d24d06871ab060564bb7ce>:0 
+  at System.AppDomain.Load (System.Byte[] rawAssembly, System.Byte[] rawSymbolStore, System.Security.Policy.Evidence securityEvidence) [0x00000] in <56a9a46236d24d06871ab060564bb7ce>:0 
+  at (wrapper remoting-invoke-with-check) System.AppDomain.Load(byte[],byte[],System.Security.Policy.Evidence)
+  at System.AppDomain.Load (System.Byte[] rawAssembly) [0x00000] in <56a9a46236d24d06871ab060564bb7ce>:0 
+  at (wrapper remoting-invoke-with-check) System.AppDomain.Load(byte[])
+  at System.Reflection.Assembly.Load (System.Byte[] rawAssembly) [0x00005] in <56a9a46236d24d06871ab060564bb7ce>:0 
+  at BackgroundItemLoader.ProcessModCompilationResult (System.ValueTuple`2[T1,T2] tuple, ModMetaData mod) [0x0003e] in /Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Scripts/BackgroundItemLoader.cs:188 
+	UnityEngine.Debug:LogWarning (object)
+BackgroundItemLoader:ProcessModCompilationResult (System.ValueTuple`2<ModCompilationResult, ModScript>,ModMetaData) (at Assets/Scripts/BackgroundItemLoader.cs:205)
+BackgroundItemLoader/<LoadingCoroutine>d__9:MoveNext () (at Assets/Scripts/BackgroundItemLoader.cs:166)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+
+3.53 [LOG] Attempt load mod at Mods/Rainbow Friends Mod/mod.json
+3.53 [LOG] Loaded mod: Rainbow Friends Mod
+3.53 [LOG] Started background loading task: Rainbow Friends Mod Processing
+4.07 [LOG] Finished background loading task: Rainbow Friends Mod Processing
+4.07 [WARNING] Could not load mod assembly Rainbow Friends Mod:
+Value cannot be null.
+Parameter name: rawAssembly
+  at System.AppDomain.Load (System.Byte[] rawAssembly, System.Byte[] rawSymbolStore, System.Security.Policy.Evidence securityEvidence, System.Boolean refonly) [0x00003] in <56a9a46236d24d06871ab060564bb7ce>:0 
+  at System.AppDomain.Load (System.Byte[] rawAssembly, System.Byte[] rawSymbolStore, System.Security.Policy.Evidence securityEvidence) [0x00000] in <56a9a46236d24d06871ab060564bb7ce>:0 
+  at (wrapper remoting-invoke-with-check) System.AppDomain.Load(byte[],byte[],System.Security.Policy.Evidence)
+  at System.AppDomain.Load (System.Byte[] rawAssembly) [0x00000] in <56a9a46236d24d06871ab060564bb7ce>:0 
+  at (wrapper remoting-invoke-with-check) System.AppDomain.Load(byte[])
+  at System.Reflection.Assembly.Load (System.Byte[] rawAssembly) [0x00005] in <56a9a46236d24d06871ab060564bb7ce>:0 
+  at BackgroundItemLoader.ProcessModCompilationResult (System.ValueTuple`2[T1,T2] tuple, ModMetaData mod) [0x0003e] in /Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Scripts/BackgroundItemLoader.cs:188 
+	UnityEngine.Debug:LogWarning (object)
+BackgroundItemLoader:ProcessModCompilationResult (System.ValueTuple`2<ModCompilationResult, ModScript>,ModMetaData) (at Assets/Scripts/BackgroundItemLoader.cs:205)
+BackgroundItemLoader/<LoadingCoroutine>d__9:MoveNext () (at Assets/Scripts/BackgroundItemLoader.cs:166)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+
+16.93 [LOG] Compiler client stopped and server terminated.

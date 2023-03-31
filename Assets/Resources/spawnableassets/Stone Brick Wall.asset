@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aab867c8741be6cc75ca8bb43cc342e9, type: 3}
+  m_Name: "Stone Brick Wall"
+  m_EditorClassIdentifier: 
+  Description: "A brick wall that will stand the test of time. Very resistant and
+  heavy building material."
+  NameToOrderBy: "Brick wall 4"
+  VisibleInCatalog: 1
+  Locked: 0
+  Category: {fileID: 11400000, guid: d50021a7aadf40b68b38d4283c5836a4, type: 2}
+  Prefab: {fileID: 1791060650251977386, guid: 0264607915e74c5bb992f963ce073718, type: 2}
+  ViewSprite: {fileID: 21300000, guid: 41981dc4d69f45aa98b36c64dc9a3a10, type: 3}
+  DragSprite: {fileID: 0}
+  HasPriorName: 0
+  PriorName: 
+  MigrationEvents: []

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
+  m_Name: "MAIN MENU POST PROCESSING PROFILE"
+  m_EditorClassIdentifier: 
+  settings:
+  - {fileID: 11400000, guid: d85aeaf30bd9418e8a7ece72524e2098, type: 2}
+  - {fileID: 11400000, guid: a818b97e411f4408abc781814711e541, type: 2}
+  - {fileID: 11400000, guid: bf47791fe93f47acb0c37ecca30a2c75, type: 2}
+  - {fileID: 11400000, guid: 9440033f43a4442aa46f1779741421f1, type: 2}
+  - {fileID: 11400000, guid: 8dd079fefa4845fc975a91e0174910f2, type: 2}
+  - {fileID: 11400000, guid: 9094acf906fc4597ad6935e78ac3d4c7, type: 2}
+  - {fileID: 11400000, guid: adaccd6bd6c64854938842eadea512fc, type: 2}
+  - {fileID: 11400000, guid: 9320a63648a44be1a59f5f4809f98442, type: 2}

@@ -1,0 +1,254 @@
+{
+  "drag": {
+    "HoldRequired": false,
+    "Key": 323,
+    "SecondaryKey": 0,
+    "Universe": 1
+  },
+  "delete": {
+    "HoldRequired": false,
+    "Key": 8,
+    "SecondaryKey": 0,
+    "Universe": 1
+  },
+  "activateDirect": {
+    "HoldRequired": false,
+    "Key": 102,
+    "SecondaryKey": 0,
+    "Universe": 2
+  },
+  "slowmo": {
+    "HoldRequired": false,
+    "Key": 103,
+    "SecondaryKey": 0,
+    "Universe": 2
+  },
+  "toggleLimbStatus": {
+    "HoldRequired": false,
+    "Key": 115,
+    "SecondaryKey": 0,
+    "Universe": 2
+  },
+  "time": {
+    "HoldRequired": false,
+    "Key": 32,
+    "SecondaryKey": 0,
+    "Universe": 2
+  },
+  "tool1": {
+    "HoldRequired": false,
+    "Key": 49,
+    "SecondaryKey": 0,
+    "Universe": 2
+  },
+  "tool2": {
+    "HoldRequired": false,
+    "Key": 50,
+    "SecondaryKey": 0,
+    "Universe": 2
+  },
+  "tool3": {
+    "HoldRequired": false,
+    "Key": 51,
+    "SecondaryKey": 0,
+    "Universe": 2
+  },
+  "tool4": {
+    "HoldRequired": false,
+    "Key": 52,
+    "SecondaryKey": 0,
+    "Universe": 2
+  },
+  "tool5": {
+    "HoldRequired": false,
+    "Key": 53,
+    "SecondaryKey": 0,
+    "Universe": 2
+  },
+  "tool6": {
+    "HoldRequired": false,
+    "Key": 54,
+    "SecondaryKey": 0,
+    "Universe": 2
+  },
+  "tool7": {
+    "HoldRequired": false,
+    "Key": 55,
+    "SecondaryKey": 0,
+    "Universe": 2
+  },
+  "tool8": {
+    "HoldRequired": false,
+    "Key": 56,
+    "SecondaryKey": 0,
+    "Universe": 2
+  },
+  "tool9": {
+    "HoldRequired": false,
+    "Key": 57,
+    "SecondaryKey": 0,
+    "Universe": 2
+  },
+  "spawnLeft": {
+    "HoldRequired": false,
+    "Key": 113,
+    "SecondaryKey": 0,
+    "Universe": 2
+  },
+  "spawnRight": {
+    "HoldRequired": false,
+    "Key": 101,
+    "SecondaryKey": 0,
+    "Universe": 2
+  },
+  "left": {
+    "HoldRequired": false,
+    "Key": 97,
+    "SecondaryKey": 0,
+    "Universe": 1
+  },
+  "right": {
+    "HoldRequired": false,
+    "Key": 100,
+    "SecondaryKey": 0,
+    "Universe": 1
+  },
+  "fast": {
+    "HoldRequired": false,
+    "Key": 304,
+    "SecondaryKey": 0,
+    "Universe": 1
+  },
+  "undo": {
+    "HoldRequired": false,
+    "Key": 122,
+    "SecondaryKey": 0,
+    "Universe": 1
+  },
+  "snap": {
+    "HoldRequired": false,
+    "Key": 308,
+    "SecondaryKey": 0,
+    "Universe": 1
+  },
+  "snapToCenter": {
+    "HoldRequired": false,
+    "Key": 109,
+    "SecondaryKey": 0,
+    "Universe": 2
+  },
+  "copy": {
+    "HoldRequired": false,
+    "Key": 99,
+    "SecondaryKey": 0,
+    "Universe": 1
+  },
+  "paste": {
+    "HoldRequired": false,
+    "Key": 118,
+    "SecondaryKey": 0,
+    "Universe": 1
+  },
+  "context": {
+    "HoldRequired": false,
+    "Key": 324,
+    "SecondaryKey": 0,
+    "Universe": 1
+  },
+  "igniteSelection": {
+    "HoldRequired": false,
+    "Key": 0,
+    "SecondaryKey": 0,
+    "Universe": 2
+  },
+  "freezeSelection": {
+    "HoldRequired": false,
+    "Key": 0,
+    "SecondaryKey": 0,
+    "Universe": 2
+  },
+  "resizeSelection": {
+    "HoldRequired": false,
+    "Key": 0,
+    "SecondaryKey": 0,
+    "Universe": 2
+  },
+  "toggleThermalVision": {
+    "HoldRequired": false,
+    "Key": 116,
+    "SecondaryKey": 0,
+    "Universe": 2
+  },
+  "eyedrop": {
+    "HoldRequired": false,
+    "Key": 0,
+    "SecondaryKey": 0,
+    "Universe": 1
+  },
+  "pause": {
+    "HoldRequired": false,
+    "Key": 27,
+    "SecondaryKey": 0,
+    "Universe": 1
+  },
+  "toybox": {
+    "HoldRequired": false,
+    "Key": 9,
+    "SecondaryKey": 0,
+    "Universe": 1
+  },
+  "toolPowerToggle": {
+    "HoldRequired": false,
+    "Key": 306,
+    "SecondaryKey": 0,
+    "Universe": 2
+  },
+  "toggleHoveringHighlights": {
+    "HoldRequired": false,
+    "Key": 0,
+    "SecondaryKey": 0,
+    "Universe": 2
+  },
+  "pan": {
+    "HoldRequired": false,
+    "Key": 325,
+    "SecondaryKey": 0,
+    "Universe": 1
+  },
+  "panRight": {
+    "HoldRequired": false,
+    "Key": 275,
+    "SecondaryKey": 0,
+    "Universe": 1
+  },
+  "panLeft": {
+    "HoldRequired": false,
+    "Key": 276,
+    "SecondaryKey": 0,
+    "Universe": 1
+  },
+  "panUp": {
+    "HoldRequired": false,
+    "Key": 273,
+    "SecondaryKey": 0,
+    "Universe": 1
+  },
+  "panDown": {
+    "HoldRequired": false,
+    "Key": 274,
+    "SecondaryKey": 0,
+    "Universe": 1
+  },
+  "zoomIn": {
+    "HoldRequired": false,
+    "Key": 270,
+    "SecondaryKey": 0,
+    "Universe": 1
+  },
+  "zoomOut": {
+    "HoldRequired": false,
+    "Key": 269,
+    "SecondaryKey": 0,
+    "Universe": 1
+  }
+}

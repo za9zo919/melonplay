@@ -1,0 +1,115 @@
+0 [LOG] Control scheme file not found.
+0 [EXCEPTION] FileNotFoundException: Could not find file "/Users/soufianekhramez/Desktop/PP125 Project/ControlScheme.json"
+	System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) (at <695d1cc93cca45069c528c15c9fdd749>:0)
+System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options, System.String msgPath, System.Boolean bFromProxy, System.Boolean useLongPath, System.Boolean checkHost) (at <695d1cc93cca45069c528c15c9fdd749>:0)
+(wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions,string,bool,bool,bool)
+System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) (at <695d1cc93cca45069c528c15c9fdd749>:0)
+System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) (at <695d1cc93cca45069c528c15c9fdd749>:0)
+System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) (at <695d1cc93cca45069c528c15c9fdd749>:0)
+System.IO.StreamReader..ctor (System.String path) (at <695d1cc93cca45069c528c15c9fdd749>:0)
+(wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+System.IO.File.ReadAllText (System.String path) (at <695d1cc93cca45069c528c15c9fdd749>:0)
+InputSystem.Load () (at Assets/Scripts/InputSystem.cs:31)
+UnityEngine.Debug:LogException(Exception)
+InputSystem:Load() (at Assets/Scripts/InputSystem.cs:46)
+ControlSchemeEditorBehaviour:LoadInputSystem() (at Assets/Scripts/ControlSchemeEditorBehaviour.cs:99)
+ControlSchemeEditorBehaviour:Awake() (at Assets/Scripts/ControlSchemeEditorBehaviour.cs:24)
+UnityEngine.GameObject:SetActive(Boolean)
+MenuController:Awake() (at Assets/Scripts/MenuController.cs:41)
+
+
+0 [LOG] Jukebox not found. Can't load custom jukebox files.
+0 [LOG] {
+  "CollisionQuality": 0,
+  "StopAnimationOnDamage": false,
+  "DropOnDeath": true,
+  "ShakeIntensity": 1.0,
+  "ShowOutlines": true,
+  "SlowMotionSpeed": 20.0,
+  "AmbientTemperatureTransfer": false,
+  "PhysicsIterations": 16,
+  "ShowModLoadingFreeze": true,
+  "RejectShadyCode": true,
+  "MaxModCompilationTime": 30,
+  "GorelessMode": false,
+  "LimbCrushing": true,
+  "LimbOverflowExplosion": false,
+  "GoreMode": 0,
+  "AutoHealWounds": true,
+  "ChunkyShotParticles": true,
+  "DismembermentLooseTissue": true,
+  "CrushForceMultiplier": 1.0,
+  "BloomMode": 2,
+  "TracerBullets": false,
+  "FancyEffects": true,
+  "Decals": true,
+  "Lighting": true,
+  "MasterVolume": 1.0,
+  "SfxVolume": 1.0,
+  "UserInterfaceVolume": 1.0,
+  "AmbienceVolume": 1.0,
+  "AmbienceHighpassCutoff": 90.0,
+  "ClampVolume": true,
+  "DistantSoundEffects": true,
+  "LogDebugMessages": false,
+  "ShowFramerate": false,
+  "ZoomSensitivity": 1.0,
+  "ThermalVisionUpdateRate": 25,
+  "DeleteWireByContextMenu": true,
+  "TemperatureUnit": 0,
+  "VSync": false,
+  "SMAA": false,
+  "TonemappingMode": 0,
+  "Brightness": 100.0,
+  "RenderScale": 1.0,
+  "FramerateLimit": 144,
+  "SimplifiedBackground": false,
+  "WindowMode": 1,
+  "Resolution": null,
+  "ShowTutorial": true,
+  "ToyboxSizeOffset": 483.6
+}
+0 [WARNING] Exposed name does not exist: master
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:29)
+MixerControllerBehaviour:Start () (at Assets/Scripts/MixerControllerBehaviour.cs:38)
+
+
+0 [WARNING] Exposed name does not exist: sfx
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:30)
+MixerControllerBehaviour:Start () (at Assets/Scripts/MixerControllerBehaviour.cs:38)
+
+
+0 [WARNING] Exposed name does not exist: userInterface
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:31)
+MixerControllerBehaviour:Start () (at Assets/Scripts/MixerControllerBehaviour.cs:38)
+
+
+0 [WARNING] Exposed name does not exist: ambience
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:32)
+MixerControllerBehaviour:Start () (at Assets/Scripts/MixerControllerBehaviour.cs:38)
+
+
+0 [WARNING] Exposed name does not exist: cracking_threshold
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:33)
+MixerControllerBehaviour:Start () (at Assets/Scripts/MixerControllerBehaviour.cs:38)
+
+
+0 [LOG] Registered map "Abyss" with ID cce24b21-779f-44e4-a4f5-9cc5c3fc6b18
+0 [LOG] Registered map "Blocks" with ID b77a3f22-10da-4ef5-9dce-0413f15e15c1
+0 [LOG] Registered map "Default" with ID fb813068-e717-45de-a97f-4677a41758e6
+0 [LOG] Registered map "Humongous" with ID 8a2f165e-d4e9-4e6c-b20c-8ffa660c10c8
+0 [LOG] Registered map "Hybrid" with ID 1f444372-71ce-4862-a02e-708d82eb9dc0
+0 [LOG] Registered map "Lava" with ID 498b4aad-0ccc-4167-aee2-324a28cd57ae
+0 [LOG] Registered map "Sea" with ID 35a41d94-8bc7-47a2-93de-3a297955e97c
+0 [LOG] Registered map "Slanted" with ID 75c18cc2-5e0d-4e3c-b966-c852cdd1bb8b
+0 [LOG] Registered map "Small" with ID 544cf3d4-018d-4dd1-b442-b3845e07f1a3
+0 [LOG] Registered map "Snow" with ID 3924fb95-dc1d-43e9-b8b1-b161b91c1f9b
+0 [LOG] Registered map "Tiny" with ID 5b8c90b2-59fb-4fc7-9915-229cbc04ef0d
+0 [LOG] Registered map "Tower" with ID 5bb837ca-bbf1-4b64-a39d-33b0ab684e1d
+0 [LOG] Registered map "Void" with ID 265b1c13-c372-4ea4-8448-09731f0b0985
+0 [LOG] Registered map "Substructure" with ID 004cb5da-0d40-4fc7-aba2-d86a9659c724

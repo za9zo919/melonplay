@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aab867c8741be6cc75ca8bb43cc342e9, type: 3}
+  m_Name: "Blaster Rifle"
+  m_EditorClassIdentifier: 
+  Description: "Highly accurate blaster rifle that launches high speed bolts"
+  NameToOrderBy: "Blaster"
+  VisibleInCatalog: 1
+  Locked: 0
+  Category: {fileID: 11400000, guid: aa0b2f3f2d394dec8cd5254b079799d3, type: 2}
+  Prefab: {fileID: 1791060650251976215, guid: cb8d9ab8ca0f44a7b7f8d5e66775cbf5, type: 2}
+  ViewSprite: {fileID: 21300000, guid: e9621d08777d4ad6a6ace03c12cfa603, type: 3}
+  DragSprite: {fileID: 0}
+  HasPriorName: 0
+  PriorName: 
+  MigrationEvents: []

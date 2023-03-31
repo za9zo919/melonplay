@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aab867c8741be6cc75ca8bb43cc342e9, type: 3}
+  m_Name: "Life Detector"
+  m_EditorClassIdentifier: 
+  Description: "Triggers an activation signal when it detects living matter in front
+  of it. Range can be edited in the context menu."
+  NameToOrderBy: "detector"
+  VisibleInCatalog: 1
+  Locked: 0
+  Category: {fileID: 11400000, guid: ea3df9bc407f4261ab611d4cee9e53dc, type: 2}
+  Prefab: {fileID: 1791060650251976070, guid: db620f51383f42adb469db8d919fb0cf, type: 2}
+  ViewSprite: {fileID: 21300000, guid: 74f4aa58890d4450bc8999c5084818b9, type: 3}
+  DragSprite: {fileID: 0}
+  HasPriorName: 0
+  PriorName: 
+  MigrationEvents: []

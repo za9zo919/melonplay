@@ -1,0 +1,479 @@
+Unity Editor version:    2021.3.12f1 (8af3c3e441b1)
+Branch:                  2021.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.6.1 (Build 21G217)
+Darwin version:          21.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/2021.3.12f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+59309
+Successfully changed project path to: /Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2
+/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 98.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.12f1 (8af3c3e441b1)
+[Subsystems] Discovering subsystems at path /Applications/2021.3.12f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: AMD Radeon Pro 560X (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 560X (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 560X (high power)
+Initializing Metal device caps: AMD Radeon Pro 560X
+Initialize mono
+Mono path[0] = '/Applications/2021.3.12f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/2021.3.12f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/2021.3.12f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56734
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/2021.3.12f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/2021.3.12f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.001889 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 107.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.506 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1507ms)
+		BeginReloadAssembly (212ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1074ms)
+			LoadAssemblies (215ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (257ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (652ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (81ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (366ms)
+				ProcessInitializeOnLoadMethodAttributes (94ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.035842 seconds.
+Begin MonoManager ReloadAssembly
+Could not load image /Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/System.Text.Encodings.Web.dll due to Invalid data directory 0
+Run the peverify utility against this for more information.
+Could not resolve field token 0x04000156, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x0400015a, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x04000188, due to: Could not load type of field 'System.Text.Json.JsonWriterOptions:<Encoder>k__BackingField' (1) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonWriterOptions member:(null)
+Could not resolve field token 0x04000197, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Could not resolve field token 0x04000198, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.323 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2325ms)
+		BeginReloadAssembly (224ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1814ms)
+			LoadAssemblies (173ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (582ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (136ms)
+			SetupLoadedEditorAssemblies (817ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (49ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (581ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/2021.3.12f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.40 seconds
+Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2696 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 108 unused Assets / (3.0 MB). Loaded Objects now: 3177.
+Memory consumption went from 221.0 MB to 217.9 MB.
+Total: 7.791451 ms (FindLiveObjects: 0.493517 ms CreateObjectMapping: 0.427442 ms MarkObjects: 5.144128 ms  DeleteObjects: 1.724608 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 573898.534340 seconds.
+  path: Assets/Resources/AndroidGut.mat
+  artifactKey: Guid(c1ea1b6ad0a54022a86e0cae9ba52411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/AndroidGut.mat using Guid(c1ea1b6ad0a54022a86e0cae9ba52411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ebb205447eaf99bcc66656baab7bca9') in 3.966634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000554 seconds.
+  path: Assets/Resources/archelix_fire_3.wav
+  artifactKey: Guid(4dd55ff2e877415bb76a05053a46b0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/archelix_fire_3.wav using Guid(4dd55ff2e877415bb76a05053a46b0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44d566e5c7d3051a9416262dc78da7e') in 0.417870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Resources/accelerator_full_power.wav
+  artifactKey: Guid(ae2dc94ec70b4003838c5f1cf954d029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/accelerator_full_power.wav using Guid(ae2dc94ec70b4003838c5f1cf954d029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828418a5ce2f3c0133c8c20b97253881') in 0.014710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000899 seconds.
+  path: Assets/Resources/alarm clock SDF Material.mat
+  artifactKey: Guid(49f5320dcab64a67a189a3d17bd4c38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/alarm clock SDF Material.mat using Guid(49f5320dcab64a67a189a3d17bd4c38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41af3ad5a5bdd1f2980fe433c396beed') in 0.127085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Resources/Accelerator.png
+  artifactKey: Guid(93599d50d03949f9807f006f14e82617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Accelerator.png using Guid(93599d50d03949f9807f006f14e82617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ce86936f49b6bef925c5a5be0cfcb6') in 2.079202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Resources/1000kg Weight.png
+  artifactKey: Guid(847324f28e484dea974c9a0b9e63e14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/1000kg Weight.png using Guid(847324f28e484dea974c9a0b9e63e14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe53191daac90a903fd670f2eb51786d') in 0.032004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Resources/accelerator_single_03.wav
+  artifactKey: Guid(eb9cd104cd5b48f29a9c23b302e08e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/accelerator_single_03.wav using Guid(eb9cd104cd5b48f29a9c23b302e08e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b4406cb311296b99648df1f403fafe') in 0.026863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Resources/ammo belt.png
+  artifactKey: Guid(6f1c145379aa42febe4c2b6bf0bb6f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ammo belt.png using Guid(6f1c145379aa42febe4c2b6bf0bb6f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6b8ef0a128823be99d97a3cf7f5fe9a') in 0.011816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Resources/AK47_Shot-04.wav
+  artifactKey: Guid(9c8dc9398b8e46bba0e3e4bc5bf74a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/AK47_Shot-04.wav using Guid(9c8dc9398b8e46bba0e3e4bc5bf74a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91455e9d1988529712bc9a2ea86709e5') in 0.014759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Resources/Adrenaline Syringe.png
+  artifactKey: Guid(dc7f00aae88e44d5935e2ed2f5d0db78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Adrenaline Syringe.png using Guid(dc7f00aae88e44d5935e2ed2f5d0db78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3e6328e436ce80083bcae6014af153') in 0.032268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Resources/accept_sound.wav
+  artifactKey: Guid(477e2f4f7cdc4c749e4f364af30e9b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/accept_sound.wav using Guid(477e2f4f7cdc4c749e4f364af30e9b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15eac3af35be86149beeeb66979b6703') in 0.012315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Resources/30mm HE cannon.png
+  artifactKey: Guid(be0cb6772f4e426e9795dfc9ef4d4186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/30mm HE cannon.png using Guid(be0cb6772f4e426e9795dfc9ef4d4186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4ce5783fcce988725260188c6af0ca') in 0.027691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Resources/Archelix Caster.png
+  artifactKey: Guid(a72de7864c184c25b50184c1dc150aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Archelix Caster.png using Guid(a72de7864c184c25b50184c1dc150aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd549b3a8685362008549b9682027c6') in 0.036344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Resources/120mm_new-04.wav
+  artifactKey: Guid(6d04c707d3a44b75baf6a78b2ae049d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/120mm_new-04.wav using Guid(6d04c707d3a44b75baf6a78b2ae049d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86bae71934aa0000397b86baa4b2fe9') in 0.014603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(742254afffad1455083b09c707c26598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(742254afffad1455083b09c707c26598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1076dac538e85082d9ddc58a28cfce3') in 0.001455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Resources/Activation Transformer.png
+  artifactKey: Guid(14fb3fed6be54d4ea8e38d6c5826d95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Activation Transformer.png using Guid(14fb3fed6be54d4ea8e38d6c5826d95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f04803dc549a33a6fab1194061ef69') in 0.028369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Resources/AK47_Shot-03.wav
+  artifactKey: Guid(4fc2c7a2b40f408e959d3f10e789607c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/AK47_Shot-03.wav using Guid(4fc2c7a2b40f408e959d3f10e789607c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9c7c392cba5b307cf80ef80a4c1a8c') in 0.013312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Resources/bb1.png
+  artifactKey: Guid(76ff201b098744008729aeca288b97fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/bb1.png using Guid(76ff201b098744008729aeca288b97fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2be618b0321d26010df8ab22ed5b9b') in 0.013955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Resources/accelerator_single_01.wav
+  artifactKey: Guid(54290c59afb3428a9e411762950ecd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/accelerator_single_01.wav using Guid(54290c59afb3428a9e411762950ecd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232c4d596eee3b7bf173dcfccf24ebb6') in 0.012344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Resources/9mm_pistol3.wav
+  artifactKey: Guid(8da6958309cb43b49435fc3bf2b17bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/9mm_pistol3.wav using Guid(8da6958309cb43b49435fc3bf2b17bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99a07b9ce5c95a32317615e54cdcd37') in 0.016998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Resources/bb0.png
+  artifactKey: Guid(ac0dfbe74d264313999ff051ac890417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/bb0.png using Guid(ac0dfbe74d264313999ff051ac890417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a67002448561d1d35c1ef5135a83f4') in 0.034264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Resources/atomiserMask.png
+  artifactKey: Guid(e48da3a2b8da44119643327aa51104ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/atomiserMask.png using Guid(e48da3a2b8da44119643327aa51104ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d528d45795ef80ca623a692d2064dd') in 0.018359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Resources/aliencar_idle_loop.wav
+  artifactKey: Guid(f8e48a210d6c419d93416f5eaad820fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/aliencar_idle_loop.wav using Guid(f8e48a210d6c419d93416f5eaad820fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8c0d20045555259e1a879f7c5d898e') in 0.016356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Resources/120mm_new-03.wav
+  artifactKey: Guid(a07e402214374221a43b65ea1b7cf600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/120mm_new-03.wav using Guid(a07e402214374221a43b65ea1b7cf600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9c862a6932b36dc806d381f40f3668') in 0.016730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Resources/archelix_impact_1.wav
+  artifactKey: Guid(ea184f550e7b4a0da17cf3fc35b10d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/archelix_impact_1.wav using Guid(ea184f550e7b4a0da17cf3fc35b10d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43817c2e30cf0a7a6884ff71079a0c89') in 0.013103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Resources/B4.wav
+  artifactKey: Guid(84652012d710490694ff4419cc875974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/B4.wav using Guid(84652012d710490694ff4419cc875974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '173a386551d725bc7a80bd832f692838') in 0.012993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Resources/bb3.png
+  artifactKey: Guid(6590658b663946099f1efe93550d20b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/bb3.png using Guid(6590658b663946099f1efe93550d20b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c4770122d9349e53fac3c85c8030858') in 0.018279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000652 seconds.
+  path: Assets/Resources/Accumulator.png
+  artifactKey: Guid(6b69a3e2f9804d6b9dd74cdd7810e514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Accumulator.png using Guid(6b69a3e2f9804d6b9dd74cdd7810e514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d74c903d98fdb3529c8084b2204507') in 0.049298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Resources/A4.wav
+  artifactKey: Guid(4bb5e11073a14c399b80197b5422b656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/A4.wav using Guid(4bb5e11073a14c399b80197b5422b656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ac26a6c4e66fe4219c70f9e8b2a38f') in 0.013005 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017868 seconds.
+Begin MonoManager ReloadAssembly
+Could not load image /Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/System.Text.Encodings.Web.dll due to Invalid data directory 0
+Run the peverify utility against this for more information.
+Could not resolve field token 0x04000156, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x0400015a, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x04000188, due to: Could not load type of field 'System.Text.Json.JsonWriterOptions:<Encoder>k__BackingField' (1) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonWriterOptions member:(null)
+Could not resolve field token 0x04000197, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Could not resolve field token 0x04000198, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.299 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2300ms)
+		BeginReloadAssembly (321ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (112ms)
+		EndReloadAssembly (1769ms)
+			LoadAssemblies (228ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (641ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (105ms)
+			SetupLoadedEditorAssemblies (760ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (58ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (561ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2633 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 102 unused Assets / (3.0 MB). Loaded Objects now: 3238.
+Memory consumption went from 264.3 MB to 261.3 MB.
+Total: 6.601856 ms (FindLiveObjects: 0.374213 ms CreateObjectMapping: 0.220700 ms MarkObjects: 4.101539 ms  DeleteObjects: 1.903964 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009098 seconds.
+Begin MonoManager ReloadAssembly
+Could not load image /Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/System.Text.Encodings.Web.dll due to Invalid data directory 0
+Run the peverify utility against this for more information.
+Could not resolve field token 0x04000156, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x0400015a, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x04000188, due to: Could not load type of field 'System.Text.Json.JsonWriterOptions:<Encoder>k__BackingField' (1) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonWriterOptions member:(null)
+Could not resolve field token 0x04000197, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Could not resolve field token 0x04000198, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.258 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2259ms)
+		BeginReloadAssembly (261ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (94ms)
+		EndReloadAssembly (1787ms)
+			LoadAssemblies (160ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (654ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (803ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (58ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (590ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2633 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 102 unused Assets / (3.0 MB). Loaded Objects now: 3241.
+Memory consumption went from 264.6 MB to 261.5 MB.
+Total: 6.578340 ms (FindLiveObjects: 0.412452 ms CreateObjectMapping: 0.273684 ms MarkObjects: 4.613410 ms  DeleteObjects: 1.277335 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting

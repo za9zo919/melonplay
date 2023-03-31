@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aeeccb67fcadfbf6ad49e4317b2b834, type: 3}
+  m_Name: "Ceramic"
+  m_EditorClassIdentifier: 
+  PhysicMaterial: {fileID: 6200000, guid: 68891f76153c4cfda9a117cbfff9ed38, type: 2}
+  Sharp: 0
+  SharpForceThresholdMultiplier: 1
+  LodgeStrengthMultiplier: 1
+  SharpAxes: []
+  Softness: 0.001
+  BulletSpeedAbsorptionPower: 0.3
+  Brittleness: 0.8
+  Buoyancy: 0.3
+  Flammability: 0
+  MagneticAttractionIntensity: 0
+  Conducting: 0
+  Burnrate: 0
+  BurningTemperatureThreshold: 1500
+  HeatTransferSpeedMultiplier: 0.8
+  SizzleSounds: []
+  SoftImpact:
+  - {fileID: 8300000, guid: c0005a882bc54eb186922e5bef01cfea, type: 3}
+  - {fileID: 8300000, guid: 5201d577c303419494f7abc06ead70fb, type: 3}
+  - {fileID: 8300000, guid: 58bae5afe80d4e4ba9fe572b283dcb1f, type: 3}
+  - {fileID: 8300000, guid: 4339e6a616234a4fad72d3a8610fc37f, type: 3}
+  - {fileID: 8300000, guid: d78063511a3842e3a7e0405528b67c1b, type: 3}
+  - {fileID: 8300000, guid: af7180b1e19c4c6780b70562274c3e3a, type: 3}
+  HardImpact:
+  - {fileID: 8300000, guid: c0005a882bc54eb186922e5bef01cfea, type: 3}
+  - {fileID: 8300000, guid: 5201d577c303419494f7abc06ead70fb, type: 3}
+  - {fileID: 8300000, guid: 58bae5afe80d4e4ba9fe572b283dcb1f, type: 3}
+  - {fileID: 8300000, guid: 4339e6a616234a4fad72d3a8610fc37f, type: 3}
+  - {fileID: 8300000, guid: d78063511a3842e3a7e0405528b67c1b, type: 3}
+  - {fileID: 8300000, guid: af7180b1e19c4c6780b70562274c3e3a, type: 3}
+  ImpactIntensityMutliplier: 1
+  HitVolumeMultiplier: 1
+  SlidingLoop: {fileID: 8300000, guid: d87da15f2cb144b489f36970b71d28ca, type: 3}
+  StabSound: []
+  ShotImpact: {fileID: 1791060650251976516, guid: 386f5d60a4424345ab95a85a702e3a52, type: 2}
+  IsPoolable: 1

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4adff4e42192a787a1ebbaba84ff83b8, type: 3}
+  m_Name: "Humongous"
+  m_EditorClassIdentifier: 
+  UniqueIdentity: "8a2f165e-d4e9-4e6c-b20c-8ffa660c10c8"
+  Description: "This map is just way too large"
+  Thumbnail: {fileID: 21300000, guid: e1921222e44544d3a75aa1bc51808af3, type: 3}
+  Preview: {fileID: 21300000, guid: 4bd70f4e2db04930a2115e1d25e0c4ef, type: 3}
+  Prefab: {fileID: 1791060650251977424, guid: 46df874ed3a64123924d92dfb79df72f, type: 2}

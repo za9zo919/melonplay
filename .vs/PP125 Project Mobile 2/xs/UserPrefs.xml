@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{4317A849-276F-6EBF-AC0E-688F813E88D2}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/NonSteamStatManager.cs">
+    <Files>
+      <File FileName="Assets/Scripts/AotSerialization/GeneratedFormatters.cs" Line="7" Column="3" />
+      <File FileName="Assets/Scripts/ContraptionSerialiser.cs" Line="186" Column="6" />
+      <File FileName="Assets/Scripts/CustomStringFormatter.cs" Line="46" Column="5" />
+      <File FileName="Assets/Scripts/ObjectState.cs" Line="1" Column="3" />
+      <File FileName="Assets/Scripts/SkinMaterialHandler.cs" Line="64" Column="4" />
+      <File FileName="Assets/Scripts/NonSteamStatManager.cs" Line="58" Column="4" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PP125 Project Mobile 2" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="900c2264-ebfe-4e80-93c0-362e1da57d25" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

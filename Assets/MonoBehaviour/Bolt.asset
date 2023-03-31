@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aeeccb67fcadfbf6ad49e4317b2b834, type: 3}
+  m_Name: "Bolt"
+  m_EditorClassIdentifier: 
+  PhysicMaterial: {fileID: 6200000, guid: 1fe9521e80eb4689a8c854e10d79379c, type: 2}
+  Sharp: 1
+  SharpForceThresholdMultiplier: 0.02
+  LodgeStrengthMultiplier: 1
+  SharpAxes:
+  - Axis: {x: 1, y: 0}
+    LowerLimit: -0.12
+    UpperLimit: 0.24
+    LooseUpperLimit: 1
+    LooseLowerLimit: 0
+  Softness: 0
+  BulletSpeedAbsorptionPower: 0
+  Brittleness: 0
+  Buoyancy: 0.15
+  Flammability: 0
+  MagneticAttractionIntensity: 1
+  Conducting: 1
+  Burnrate: 0
+  BurningTemperatureThreshold: 5000
+  HeatTransferSpeedMultiplier: 1
+  SizzleSounds: []
+  SoftImpact:
+  - {fileID: 8300000, guid: e136ddaeb3684c34993ed661886a9649, type: 3}
+  - {fileID: 8300000, guid: a649c56e71a64e80956fa0bd0c98c628, type: 3}
+  - {fileID: 8300000, guid: 36a6c97b2eb84a989ea546641ee413b6, type: 3}
+  HardImpact:
+  - {fileID: 8300000, guid: e136ddaeb3684c34993ed661886a9649, type: 3}
+  - {fileID: 8300000, guid: a649c56e71a64e80956fa0bd0c98c628, type: 3}
+  - {fileID: 8300000, guid: 36a6c97b2eb84a989ea546641ee413b6, type: 3}
+  ImpactIntensityMutliplier: 1
+  HitVolumeMultiplier: 1
+  SlidingLoop: {fileID: 8300000, guid: 6b8acdb8c8fc4decb14aac7a9667a45f, type: 3}
+  StabSound: []
+  ShotImpact: {fileID: 1791060650251976805, guid: b2b5ea4633f44ed2ba52847810fc40fa, type: 2}
+  IsPoolable: 1

@@ -1,0 +1,17 @@
+{
+  "Name": "Rainbow Friends Mod",
+  "Author": "ThatRandomDeveloper",
+  "Description": "ORIGINAL MOD BY THATRANDOMDEVELOPER!! NO STINKY THIEVES.",
+  "ModVersion": "1.0",
+  "GameVersion": "1.22+",
+  "ThumbnailPath": "thumb.png",
+  "EntryPoint": "Mod.Mod",
+  "Tags": [],
+  "Scripts": [
+    "script.cs",
+    "CategoryBuilder.cs"
+  ],
+  "Active": true,
+  "UGCIdentity": null,
+  "CreatorUGCIdentity": "2850214195"
+}

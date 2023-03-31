@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aeeccb67fcadfbf6ad49e4317b2b834, type: 3}
+  m_Name: "Dynamite"
+  m_EditorClassIdentifier: 
+  PhysicMaterial: {fileID: 6200000, guid: 67f560c1f4d9433e921b613a16f202a8, type: 2}
+  Sharp: 0
+  SharpForceThresholdMultiplier: 1
+  LodgeStrengthMultiplier: 1
+  SharpAxes: []
+  Softness: 0.9
+  BulletSpeedAbsorptionPower: 0
+  Brittleness: 0
+  Buoyancy: 0.3
+  Flammability: 1
+  MagneticAttractionIntensity: 0
+  Conducting: 1
+  Burnrate: 0.1
+  BurningTemperatureThreshold: 100
+  HeatTransferSpeedMultiplier: 0.2
+  SizzleSounds: []
+  SoftImpact:
+  - {fileID: 8300000, guid: 47e44fa5a5764877a5d679a43a945ab9, type: 3}
+  - {fileID: 8300000, guid: e7b68a654d7344a483b6d963ba2c2157, type: 3}
+  - {fileID: 8300000, guid: 99e24001516748c6b08a58e08d412d8b, type: 3}
+  - {fileID: 8300000, guid: ea13b44065a74cda829261a7212cbfeb, type: 3}
+  HardImpact:
+  - {fileID: 8300000, guid: 1a9c8b0cb80e48c781f415f6e88605bf, type: 3}
+  - {fileID: 8300000, guid: 5e454b8c757c4518868969004af677c8, type: 3}
+  ImpactIntensityMutliplier: 1
+  HitVolumeMultiplier: 2
+  SlidingLoop: {fileID: 8300000, guid: f5afec1af1134d28982ef5507f264b6a, type: 3}
+  StabSound: []
+  ShotImpact: {fileID: 1791060650251976516, guid: 386f5d60a4424345ab95a85a702e3a52, type: 2}
+  IsPoolable: 1

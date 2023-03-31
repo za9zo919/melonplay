@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aab867c8741be6cc75ca8bb43cc342e9, type: 3}
+  m_Name: "Gorse Blood Flask"
+  m_EditorClassIdentifier: 
+  Description: "1L flask full of Gorse blood. Do not ingest."
+  NameToOrderBy: "Flask2"
+  VisibleInCatalog: 1
+  Locked: 0
+  Category: {fileID: 11400000, guid: 39f60b1d74a54e84af3ac23283220e5c, type: 2}
+  Prefab: {fileID: 1791060650251976923, guid: 306d008085dd4b0ea0faae0021fe0c87, type: 2}
+  ViewSprite: {fileID: 21300000, guid: d5b35b23ade94edd961483226872cc84, type: 3}
+  DragSprite: {fileID: 0}
+  HasPriorName: 0
+  PriorName: 
+  MigrationEvents: []

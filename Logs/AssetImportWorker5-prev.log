@@ -1,0 +1,1604 @@
+Unity Editor version:    2021.3.12f1 (8af3c3e441b1)
+Branch:                  2021.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.6.1 (Build 21G217)
+Darwin version:          21.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/2021.3.12f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+51252
+Successfully changed project path to: /Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2
+/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 205.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.12f1 (8af3c3e441b1)
+[Subsystems] Discovering subsystems at path /Applications/2021.3.12f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
+Metal devices available: 2
+0: AMD Radeon Pro 560X (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 560X (high power)
+Initializing Metal device caps: AMD Radeon Pro 560X
+Initialize mono
+Mono path[0] = '/Applications/2021.3.12f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/2021.3.12f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/2021.3.12f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56418
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/2021.3.12f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/2021.3.12f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.002002 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 144.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.248 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2249ms)
+		BeginReloadAssembly (212ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1635ms)
+			LoadAssemblies (210ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (422ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (118ms)
+			SetupLoadedEditorAssemblies (936ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (132ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (145ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (524ms)
+				ProcessInitializeOnLoadMethodAttributes (131ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011948 seconds.
+Begin MonoManager ReloadAssembly
+Could not load image /Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/System.Text.Encodings.Web.dll due to Invalid data directory 0
+Run the peverify utility against this for more information.
+Could not resolve field token 0x04000156, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x0400015a, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x04000188, due to: Could not load type of field 'System.Text.Json.JsonWriterOptions:<Encoder>k__BackingField' (1) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonWriterOptions member:(null)
+Could not resolve field token 0x04000197, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Could not resolve field token 0x04000198, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.768 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2770ms)
+		BeginReloadAssembly (294ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (2119ms)
+			LoadAssemblies (166ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (750ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (201ms)
+			SetupLoadedEditorAssemblies (888ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (52ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (646ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/2021.3.12f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.13 seconds
+Refreshing native plugins compatible for Editor in 1.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2696 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 108 unused Assets / (3.0 MB). Loaded Objects now: 3177.
+Memory consumption went from 221.3 MB to 218.3 MB.
+Total: 6.197429 ms (FindLiveObjects: 0.305890 ms CreateObjectMapping: 0.260159 ms MarkObjects: 4.232851 ms  DeleteObjects: 1.397332 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005487 seconds.
+Begin MonoManager ReloadAssembly
+Could not load image /Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/System.Text.Encodings.Web.dll due to Invalid data directory 0
+Run the peverify utility against this for more information.
+Could not resolve field token 0x04000156, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x0400015a, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x04000188, due to: Could not load type of field 'System.Text.Json.JsonWriterOptions:<Encoder>k__BackingField' (1) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonWriterOptions member:(null)
+Could not resolve field token 0x04000197, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Could not resolve field token 0x04000198, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.147 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1148ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (898ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (299ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (411ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (287ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2631 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 102 unused Assets / (3.0 MB). Loaded Objects now: 3180.
+Memory consumption went from 215.2 MB to 212.1 MB.
+Total: 5.228300 ms (FindLiveObjects: 0.326828 ms CreateObjectMapping: 0.311177 ms MarkObjects: 3.578322 ms  DeleteObjects: 1.010653 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005193 seconds.
+Begin MonoManager ReloadAssembly
+Could not load image /Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/System.Text.Encodings.Web.dll due to Invalid data directory 0
+Run the peverify utility against this for more information.
+Could not resolve field token 0x04000156, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x0400015a, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x04000188, due to: Could not load type of field 'System.Text.Json.JsonWriterOptions:<Encoder>k__BackingField' (1) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonWriterOptions member:(null)
+Could not resolve field token 0x04000197, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Could not resolve field token 0x04000198, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.235 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1236ms)
+		BeginReloadAssembly (161ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (949ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (312ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (459ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (325ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2631 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 102 unused Assets / (3.0 MB). Loaded Objects now: 3183.
+Memory consumption went from 215.4 MB to 212.4 MB.
+Total: 5.876142 ms (FindLiveObjects: 0.329454 ms CreateObjectMapping: 0.172104 ms MarkObjects: 3.832241 ms  DeleteObjects: 1.540727 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006518 seconds.
+Begin MonoManager ReloadAssembly
+Could not load image /Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/System.Text.Encodings.Web.dll due to Invalid data directory 0
+Run the peverify utility against this for more information.
+Could not resolve field token 0x04000156, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x0400015a, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x04000188, due to: Could not load type of field 'System.Text.Json.JsonWriterOptions:<Encoder>k__BackingField' (1) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonWriterOptions member:(null)
+Could not resolve field token 0x04000197, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Could not resolve field token 0x04000198, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.597 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1598ms)
+		BeginReloadAssembly (192ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (83ms)
+		EndReloadAssembly (1226ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (425ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (571ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (56ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (403ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2631 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 102 unused Assets / (3.0 MB). Loaded Objects now: 3186.
+Memory consumption went from 216.1 MB to 213.0 MB.
+Total: 6.547444 ms (FindLiveObjects: 0.320555 ms CreateObjectMapping: 0.259883 ms MarkObjects: 4.393732 ms  DeleteObjects: 1.571385 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007892 seconds.
+Begin MonoManager ReloadAssembly
+Could not load image /Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/System.Text.Encodings.Web.dll due to Invalid data directory 0
+Run the peverify utility against this for more information.
+Could not resolve field token 0x04000156, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x0400015a, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x04000188, due to: Could not load type of field 'System.Text.Json.JsonWriterOptions:<Encoder>k__BackingField' (1) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonWriterOptions member:(null)
+Could not resolve field token 0x04000197, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Could not resolve field token 0x04000198, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.670 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1671ms)
+		BeginReloadAssembly (204ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (83ms)
+		EndReloadAssembly (1282ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (442ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (592ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (43ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (435ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2631 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 102 unused Assets / (3.0 MB). Loaded Objects now: 3189.
+Memory consumption went from 216.3 MB to 213.2 MB.
+Total: 6.099462 ms (FindLiveObjects: 0.322359 ms CreateObjectMapping: 0.329325 ms MarkObjects: 3.991307 ms  DeleteObjects: 1.454954 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006243 seconds.
+Begin MonoManager ReloadAssembly
+Could not load image /Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/System.Text.Encodings.Web.dll due to Invalid data directory 0
+Run the peverify utility against this for more information.
+Could not resolve field token 0x04000156, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x0400015a, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x04000188, due to: Could not load type of field 'System.Text.Json.JsonWriterOptions:<Encoder>k__BackingField' (1) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonWriterOptions member:(null)
+Could not resolve field token 0x04000197, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Could not resolve field token 0x04000198, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.654 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1656ms)
+		BeginReloadAssembly (313ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (26ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (152ms)
+		EndReloadAssembly (1184ms)
+			LoadAssemblies (113ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (424ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (539ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (387ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2631 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 102 unused Assets / (3.0 MB). Loaded Objects now: 3192.
+Memory consumption went from 216.5 MB to 213.5 MB.
+Total: 7.575803 ms (FindLiveObjects: 0.346758 ms CreateObjectMapping: 0.322661 ms MarkObjects: 5.171317 ms  DeleteObjects: 1.733788 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006325 seconds.
+Begin MonoManager ReloadAssembly
+Could not load image /Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/System.Text.Encodings.Web.dll due to Invalid data directory 0
+Run the peverify utility against this for more information.
+Could not resolve field token 0x04000156, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x0400015a, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x04000188, due to: Could not load type of field 'System.Text.Json.JsonWriterOptions:<Encoder>k__BackingField' (1) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonWriterOptions member:(null)
+Could not resolve field token 0x04000197, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Could not resolve field token 0x04000198, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.935 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1938ms)
+		BeginReloadAssembly (427ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (29ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (178ms)
+		EndReloadAssembly (1330ms)
+			LoadAssemblies (233ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (477ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (567ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (51ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (406ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2631 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 102 unused Assets / (3.0 MB). Loaded Objects now: 3195.
+Memory consumption went from 216.7 MB to 213.7 MB.
+Total: 5.891238 ms (FindLiveObjects: 0.283685 ms CreateObjectMapping: 0.235044 ms MarkObjects: 4.128961 ms  DeleteObjects: 1.241530 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006290 seconds.
+Begin MonoManager ReloadAssembly
+Could not load image /Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/System.Text.Encodings.Web.dll due to Invalid data directory 0
+Run the peverify utility against this for more information.
+Could not resolve field token 0x04000156, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x0400015a, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x04000188, due to: Could not load type of field 'System.Text.Json.JsonWriterOptions:<Encoder>k__BackingField' (1) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonWriterOptions member:(null)
+Could not resolve field token 0x04000197, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Could not resolve field token 0x04000198, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.673 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1674ms)
+		BeginReloadAssembly (205ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (89ms)
+		EndReloadAssembly (1300ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (470ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (556ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (60ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (389ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2631 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 102 unused Assets / (3.0 MB). Loaded Objects now: 3198.
+Memory consumption went from 216.9 MB to 213.9 MB.
+Total: 5.235606 ms (FindLiveObjects: 0.310557 ms CreateObjectMapping: 0.244778 ms MarkObjects: 3.271720 ms  DeleteObjects: 1.407346 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006866 seconds.
+Begin MonoManager ReloadAssembly
+Could not load image /Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/System.Text.Encodings.Web.dll due to Invalid data directory 0
+Run the peverify utility against this for more information.
+Could not resolve field token 0x04000156, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x0400015a, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x04000188, due to: Could not load type of field 'System.Text.Json.JsonWriterOptions:<Encoder>k__BackingField' (1) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonWriterOptions member:(null)
+Could not resolve field token 0x04000197, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Could not resolve field token 0x04000198, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.569 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1570ms)
+		BeginReloadAssembly (188ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (1221ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (417ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (569ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (417ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2631 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 102 unused Assets / (3.0 MB). Loaded Objects now: 3201.
+Memory consumption went from 217.1 MB to 214.1 MB.
+Total: 4.936503 ms (FindLiveObjects: 0.276472 ms CreateObjectMapping: 0.204697 ms MarkObjects: 3.298540 ms  DeleteObjects: 1.155618 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005367 seconds.
+Begin MonoManager ReloadAssembly
+Could not load image /Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/System.Text.Encodings.Web.dll due to Invalid data directory 0
+Run the peverify utility against this for more information.
+Could not resolve field token 0x04000156, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x0400015a, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x04000188, due to: Could not load type of field 'System.Text.Json.JsonWriterOptions:<Encoder>k__BackingField' (1) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonWriterOptions member:(null)
+Could not resolve field token 0x04000197, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Could not resolve field token 0x04000198, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.428 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1429ms)
+		BeginReloadAssembly (163ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (1118ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (397ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (497ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (360ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2631 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 102 unused Assets / (3.0 MB). Loaded Objects now: 3204.
+Memory consumption went from 217.3 MB to 214.3 MB.
+Total: 4.924897 ms (FindLiveObjects: 0.263951 ms CreateObjectMapping: 0.179849 ms MarkObjects: 3.325576 ms  DeleteObjects: 1.154163 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007773 seconds.
+Begin MonoManager ReloadAssembly
+Could not load image /Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/System.Text.Encodings.Web.dll due to Invalid data directory 0
+Run the peverify utility against this for more information.
+Could not resolve field token 0x04000156, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x0400015a, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x04000188, due to: Could not load type of field 'System.Text.Json.JsonWriterOptions:<Encoder>k__BackingField' (1) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonWriterOptions member:(null)
+Could not resolve field token 0x04000197, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Could not resolve field token 0x04000198, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.729 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1730ms)
+		BeginReloadAssembly (211ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (91ms)
+		EndReloadAssembly (1336ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (437ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (643ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (47ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (480ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2631 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 102 unused Assets / (3.0 MB). Loaded Objects now: 3207.
+Memory consumption went from 217.5 MB to 214.5 MB.
+Total: 6.260504 ms (FindLiveObjects: 0.283248 ms CreateObjectMapping: 0.207793 ms MarkObjects: 4.344111 ms  DeleteObjects: 1.424011 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009130 seconds.
+Begin MonoManager ReloadAssembly
+Could not load image /Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/System.Text.Encodings.Web.dll due to Invalid data directory 0
+Run the peverify utility against this for more information.
+Could not resolve field token 0x04000156, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x0400015a, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x04000188, due to: Could not load type of field 'System.Text.Json.JsonWriterOptions:<Encoder>k__BackingField' (1) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonWriterOptions member:(null)
+Could not resolve field token 0x04000197, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Could not resolve field token 0x04000198, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.011 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2013ms)
+		BeginReloadAssembly (232ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (96ms)
+		EndReloadAssembly (1577ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (546ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (718ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (52ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (530ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2631 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 102 unused Assets / (3.0 MB). Loaded Objects now: 3210.
+Memory consumption went from 217.7 MB to 214.7 MB.
+Total: 6.494597 ms (FindLiveObjects: 0.325234 ms CreateObjectMapping: 0.245204 ms MarkObjects: 4.438330 ms  DeleteObjects: 1.483724 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006373 seconds.
+Begin MonoManager ReloadAssembly
+Could not load image /Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/System.Text.Encodings.Web.dll due to Invalid data directory 0
+Run the peverify utility against this for more information.
+Could not resolve field token 0x04000156, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x0400015a, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x04000188, due to: Could not load type of field 'System.Text.Json.JsonWriterOptions:<Encoder>k__BackingField' (1) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonWriterOptions member:(null)
+Could not resolve field token 0x04000197, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Could not resolve field token 0x04000198, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.368 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1369ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (1056ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (363ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (490ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (362ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2631 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 102 unused Assets / (3.0 MB). Loaded Objects now: 3213.
+Memory consumption went from 218.0 MB to 214.9 MB.
+Total: 6.145210 ms (FindLiveObjects: 0.257201 ms CreateObjectMapping: 0.176908 ms MarkObjects: 4.239006 ms  DeleteObjects: 1.470451 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007134 seconds.
+Begin MonoManager ReloadAssembly
+Could not load image /Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/System.Text.Encodings.Web.dll due to Invalid data directory 0
+Run the peverify utility against this for more information.
+Could not resolve field token 0x04000156, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x0400015a, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x04000188, due to: Could not load type of field 'System.Text.Json.JsonWriterOptions:<Encoder>k__BackingField' (1) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonWriterOptions member:(null)
+Could not resolve field token 0x04000197, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Could not resolve field token 0x04000198, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.094 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3096ms)
+		BeginReloadAssembly (434ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (156ms)
+		EndReloadAssembly (2339ms)
+			LoadAssemblies (290ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (777ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (1109ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (133ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (136ms)
+				ProcessInitializeOnLoadAttributes (752ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 12.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2631 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 102 unused Assets / (3.0 MB). Loaded Objects now: 3216.
+Memory consumption went from 218.2 MB to 215.2 MB.
+Total: 10.628189 ms (FindLiveObjects: 0.467510 ms CreateObjectMapping: 0.458246 ms MarkObjects: 8.338072 ms  DeleteObjects: 1.362739 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005754 seconds.
+Begin MonoManager ReloadAssembly
+Could not load image /Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/System.Text.Encodings.Web.dll due to Invalid data directory 0
+Run the peverify utility against this for more information.
+Could not resolve field token 0x04000156, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x0400015a, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x04000188, due to: Could not load type of field 'System.Text.Json.JsonWriterOptions:<Encoder>k__BackingField' (1) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonWriterOptions member:(null)
+Could not resolve field token 0x04000197, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Could not resolve field token 0x04000198, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.685 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1686ms)
+		BeginReloadAssembly (256ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (104ms)
+		EndReloadAssembly (1277ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (433ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (588ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (52ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (426ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2631 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 102 unused Assets / (3.0 MB). Loaded Objects now: 3219.
+Memory consumption went from 218.4 MB to 215.4 MB.
+Total: 5.869338 ms (FindLiveObjects: 0.293096 ms CreateObjectMapping: 0.199672 ms MarkObjects: 3.407562 ms  DeleteObjects: 1.967756 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007491 seconds.
+Begin MonoManager ReloadAssembly
+Could not load image /Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/System.Text.Encodings.Web.dll due to Invalid data directory 0
+Run the peverify utility against this for more information.
+Could not resolve field token 0x04000156, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x0400015a, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x04000188, due to: Could not load type of field 'System.Text.Json.JsonWriterOptions:<Encoder>k__BackingField' (1) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonWriterOptions member:(null)
+Could not resolve field token 0x04000197, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Could not resolve field token 0x04000198, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.999 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2000ms)
+		BeginReloadAssembly (307ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (153ms)
+		EndReloadAssembly (1505ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (580ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (646ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (48ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (467ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2631 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 102 unused Assets / (3.0 MB). Loaded Objects now: 3222.
+Memory consumption went from 218.6 MB to 215.6 MB.
+Total: 6.323490 ms (FindLiveObjects: 0.379886 ms CreateObjectMapping: 0.312508 ms MarkObjects: 4.411216 ms  DeleteObjects: 1.218591 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006875 seconds.
+Begin MonoManager ReloadAssembly
+Could not load image /Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/System.Text.Encodings.Web.dll due to Invalid data directory 0
+Run the peverify utility against this for more information.
+Could not resolve field token 0x04000156, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x0400015a, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x04000188, due to: Could not load type of field 'System.Text.Json.JsonWriterOptions:<Encoder>k__BackingField' (1) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonWriterOptions member:(null)
+Could not resolve field token 0x04000197, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Could not resolve field token 0x04000198, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.471 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1471ms)
+		BeginReloadAssembly (182ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (1134ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (396ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (519ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (38ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (380ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2631 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 102 unused Assets / (3.0 MB). Loaded Objects now: 3225.
+Memory consumption went from 218.8 MB to 215.8 MB.
+Total: 4.768646 ms (FindLiveObjects: 0.253041 ms CreateObjectMapping: 0.164573 ms MarkObjects: 3.265317 ms  DeleteObjects: 1.084153 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006357 seconds.
+Begin MonoManager ReloadAssembly
+Could not load image /Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/System.Text.Encodings.Web.dll due to Invalid data directory 0
+Run the peverify utility against this for more information.
+Could not resolve field token 0x04000156, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x0400015a, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x04000188, due to: Could not load type of field 'System.Text.Json.JsonWriterOptions:<Encoder>k__BackingField' (1) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonWriterOptions member:(null)
+Could not resolve field token 0x04000197, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Could not resolve field token 0x04000198, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.623 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1624ms)
+		BeginReloadAssembly (189ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (1271ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (419ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (601ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (45ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (438ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2631 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 102 unused Assets / (3.0 MB). Loaded Objects now: 3228.
+Memory consumption went from 219.0 MB to 216.0 MB.
+Total: 5.102607 ms (FindLiveObjects: 0.271894 ms CreateObjectMapping: 0.218627 ms MarkObjects: 3.437965 ms  DeleteObjects: 1.172862 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007397 seconds.
+Begin MonoManager ReloadAssembly
+Could not load image /Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/System.Text.Encodings.Web.dll due to Invalid data directory 0
+Run the peverify utility against this for more information.
+Could not resolve field token 0x04000156, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x0400015a, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x04000188, due to: Could not load type of field 'System.Text.Json.JsonWriterOptions:<Encoder>k__BackingField' (1) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonWriterOptions member:(null)
+Could not resolve field token 0x04000197, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Could not resolve field token 0x04000198, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.563 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1564ms)
+		BeginReloadAssembly (190ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (80ms)
+		EndReloadAssembly (1208ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (419ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (554ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (408ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2631 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 102 unused Assets / (3.0 MB). Loaded Objects now: 3231.
+Memory consumption went from 219.2 MB to 216.2 MB.
+Total: 4.949278 ms (FindLiveObjects: 0.267512 ms CreateObjectMapping: 0.183168 ms MarkObjects: 3.336519 ms  DeleteObjects: 1.160833 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007333 seconds.
+Begin MonoManager ReloadAssembly
+Could not load image /Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/System.Text.Encodings.Web.dll due to Invalid data directory 0
+Run the peverify utility against this for more information.
+Could not resolve field token 0x04000156, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x0400015a, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x04000188, due to: Could not load type of field 'System.Text.Json.JsonWriterOptions:<Encoder>k__BackingField' (1) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonWriterOptions member:(null)
+Could not resolve field token 0x04000197, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Could not resolve field token 0x04000198, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.147 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2149ms)
+		BeginReloadAssembly (314ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (135ms)
+		EndReloadAssembly (1646ms)
+			LoadAssemblies (145ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (528ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (761ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (56ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (553ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2631 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 102 unused Assets / (3.0 MB). Loaded Objects now: 3234.
+Memory consumption went from 219.4 MB to 216.4 MB.
+Total: 7.106492 ms (FindLiveObjects: 0.434555 ms CreateObjectMapping: 0.264137 ms MarkObjects: 4.873946 ms  DeleteObjects: 1.531683 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008416 seconds.
+Begin MonoManager ReloadAssembly
+Could not load image /Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/System.Text.Encodings.Web.dll due to Invalid data directory 0
+Run the peverify utility against this for more information.
+Could not resolve field token 0x04000156, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x0400015a, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x04000188, due to: Could not load type of field 'System.Text.Json.JsonWriterOptions:<Encoder>k__BackingField' (1) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonWriterOptions member:(null)
+Could not resolve field token 0x04000197, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Could not resolve field token 0x04000198, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.120 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2121ms)
+		BeginReloadAssembly (220ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (100ms)
+		EndReloadAssembly (1724ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (415ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (1044ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (53ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (795ms)
+				ProcessInitializeOnLoadMethodAttributes (116ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2631 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 102 unused Assets / (3.0 MB). Loaded Objects now: 3237.
+Memory consumption went from 219.6 MB to 216.6 MB.
+Total: 5.966522 ms (FindLiveObjects: 0.286845 ms CreateObjectMapping: 0.206291 ms MarkObjects: 4.146089 ms  DeleteObjects: 1.325586 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007792 seconds.
+Begin MonoManager ReloadAssembly
+Could not load image /Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/System.Text.Encodings.Web.dll due to Invalid data directory 0
+Run the peverify utility against this for more information.
+Could not resolve field token 0x04000156, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x0400015a, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x04000188, due to: Could not load type of field 'System.Text.Json.JsonWriterOptions:<Encoder>k__BackingField' (1) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonWriterOptions member:(null)
+Could not resolve field token 0x04000197, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Could not resolve field token 0x04000198, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.174 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2176ms)
+		BeginReloadAssembly (307ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (118ms)
+		EndReloadAssembly (1666ms)
+			LoadAssemblies (163ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (580ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (776ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (52ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (587ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2631 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 102 unused Assets / (3.0 MB). Loaded Objects now: 3240.
+Memory consumption went from 219.8 MB to 216.8 MB.
+Total: 8.571507 ms (FindLiveObjects: 0.415581 ms CreateObjectMapping: 0.384261 ms MarkObjects: 4.970184 ms  DeleteObjects: 2.799943 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007092 seconds.
+Begin MonoManager ReloadAssembly
+Could not load image /Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/System.Text.Encodings.Web.dll due to Invalid data directory 0
+Run the peverify utility against this for more information.
+Could not resolve field token 0x04000156, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x0400015a, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x04000188, due to: Could not load type of field 'System.Text.Json.JsonWriterOptions:<Encoder>k__BackingField' (1) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonWriterOptions member:(null)
+Could not resolve field token 0x04000197, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Could not resolve field token 0x04000198, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.833 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1834ms)
+		BeginReloadAssembly (227ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (97ms)
+		EndReloadAssembly (1416ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (491ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (635ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (457ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2631 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 102 unused Assets / (3.0 MB). Loaded Objects now: 3243.
+Memory consumption went from 220.0 MB to 217.0 MB.
+Total: 6.786662 ms (FindLiveObjects: 0.342971 ms CreateObjectMapping: 0.305528 ms MarkObjects: 4.057427 ms  DeleteObjects: 2.079073 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024452 seconds.
+Begin MonoManager ReloadAssembly
+Could not load image /Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/System.Text.Encodings.Web.dll due to Invalid data directory 0
+Run the peverify utility against this for more information.
+Could not resolve field token 0x04000156, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x0400015a, due to: Could not load type of field 'System.Text.Json.JsonSerializerOptions:_encoder' (9) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonSerializerOptions member:(null)
+Could not resolve field token 0x04000188, due to: Could not load type of field 'System.Text.Json.JsonWriterOptions:<Encoder>k__BackingField' (1) due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:JsonWriterOptions member:(null)
+Could not resolve field token 0x04000197, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Could not resolve field token 0x04000198, due to: Invalid type System.Text.Json.JsonWriterOptions for instance field System.Text.Json.Utf8JsonWriter:_options assembly:/Users/soufianekhramez/Desktop/PP125 Project Mobile 2 2/Assets/Plugins/system.text.Json.dll type:Utf8JsonWriter member:(null)
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.873 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2876ms)
+		BeginReloadAssembly (548ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (42ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (235ms)
+		EndReloadAssembly (2031ms)
+			LoadAssemblies (299ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1022ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (632ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (59ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (444ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2631 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 102 unused Assets / (3.0 MB). Loaded Objects now: 3246.
+Memory consumption went from 220.3 MB to 217.3 MB.
+Total: 5.041064 ms (FindLiveObjects: 0.268840 ms CreateObjectMapping: 0.186923 ms MarkObjects: 3.533310 ms  DeleteObjects: 1.050827 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

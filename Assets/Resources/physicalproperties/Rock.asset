@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aeeccb67fcadfbf6ad49e4317b2b834, type: 3}
+  m_Name: "Rock"
+  m_EditorClassIdentifier: 
+  PhysicMaterial: {fileID: 6200000, guid: 68891f76153c4cfda9a117cbfff9ed38, type: 2}
+  Sharp: 0
+  SharpForceThresholdMultiplier: 1
+  LodgeStrengthMultiplier: 1
+  SharpAxes: []
+  Softness: 0.001
+  BulletSpeedAbsorptionPower: 1.1
+  Brittleness: 0.061
+  Buoyancy: 0
+  Flammability: 0
+  MagneticAttractionIntensity: 0
+  Conducting: 0
+  Burnrate: 0
+  BurningTemperatureThreshold: 1300
+  HeatTransferSpeedMultiplier: 0.8
+  SizzleSounds: []
+  SoftImpact:
+  - {fileID: 8300000, guid: f8c72fa3b6dc498e908c6e4b1d9a60fb, type: 3}
+  - {fileID: 8300000, guid: a79ccee6823c443994702b70809c5226, type: 3}
+  - {fileID: 8300000, guid: 3d01bf22c3c347c782acfc33b431aff2, type: 3}
+  HardImpact:
+  - {fileID: 8300000, guid: 2f3f6c82ffd34b8a9d11fb4a03bbb55b, type: 3}
+  - {fileID: 8300000, guid: 88bfc98284ec45d49807a5b88ca37076, type: 3}
+  - {fileID: 8300000, guid: 4ccbccf4584c4347badd0f1132b5ada1, type: 3}
+  - {fileID: 8300000, guid: a821c316268f4048912ad6e31bf362bf, type: 3}
+  ImpactIntensityMutliplier: 0.1
+  HitVolumeMultiplier: 1
+  SlidingLoop: {fileID: 8300000, guid: f348312dfa7f4ff39fea0b15f0269d22, type: 3}
+  StabSound: []
+  ShotImpact: {fileID: 1791060650251976516, guid: 386f5d60a4424345ab95a85a702e3a52, type: 2}
+  IsPoolable: 1

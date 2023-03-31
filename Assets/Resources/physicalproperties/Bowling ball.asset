@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aeeccb67fcadfbf6ad49e4317b2b834, type: 3}
+  m_Name: "Bowling ball"
+  m_EditorClassIdentifier: 
+  PhysicMaterial: {fileID: 6200000, guid: 1fe9521e80eb4689a8c854e10d79379c, type: 2}
+  Sharp: 0
+  SharpForceThresholdMultiplier: 1
+  LodgeStrengthMultiplier: 1
+  SharpAxes: []
+  Softness: 0
+  BulletSpeedAbsorptionPower: 0
+  Brittleness: 1
+  Buoyancy: 0
+  Flammability: 0
+  MagneticAttractionIntensity: 0
+  Conducting: 0
+  Burnrate: 0
+  BurningTemperatureThreshold: 5000
+  HeatTransferSpeedMultiplier: 0.6
+  SizzleSounds: []
+  SoftImpact:
+  - {fileID: 8300000, guid: 90db4cd4b17948ff9cc8bd2641c3a471, type: 3}
+  - {fileID: 8300000, guid: 464c28157e964a51a54bcae8612095d0, type: 3}
+  HardImpact:
+  - {fileID: 8300000, guid: 90db4cd4b17948ff9cc8bd2641c3a471, type: 3}
+  - {fileID: 8300000, guid: 464c28157e964a51a54bcae8612095d0, type: 3}
+  ImpactIntensityMutliplier: 1
+  HitVolumeMultiplier: 1
+  SlidingLoop: {fileID: 8300000, guid: 97405248209843098d7f8d6b142b6d3a, type: 3}
+  StabSound: []
+  ShotImpact: {fileID: 1791060650251976516, guid: 386f5d60a4424345ab95a85a702e3a52, type: 2}
+  IsPoolable: 1

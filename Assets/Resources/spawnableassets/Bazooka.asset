@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aab867c8741be6cc75ca8bb43cc342e9, type: 3}
+  m_Name: "Bazooka"
+  m_EditorClassIdentifier: 
+  Description: "Simple handheld rocket launcher. Launched rockets are faster and
+  less powerful than those of the standard rocket launcher."
+  NameToOrderBy: "Rocket launcher 2"
+  VisibleInCatalog: 1
+  Locked: 0
+  Category: {fileID: 11400000, guid: aa0b2f3f2d394dec8cd5254b079799d3, type: 2}
+  Prefab: {fileID: 1791060650251976483, guid: 46666c682d8c4f5099be5eb9c4cc7200, type: 2}
+  ViewSprite: {fileID: 21300000, guid: ca8839008f2f4cd4be752858ab682793, type: 3}
+  DragSprite: {fileID: 0}
+  HasPriorName: 0
+  PriorName: 
+  MigrationEvents: []

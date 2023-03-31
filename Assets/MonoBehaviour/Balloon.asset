@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aeeccb67fcadfbf6ad49e4317b2b834, type: 3}
+  m_Name: "Balloon"
+  m_EditorClassIdentifier: 
+  PhysicMaterial: {fileID: 6200000, guid: 6eddd60c1fd84d019d2a0ecb919d5963, type: 2}
+  Sharp: 0
+  SharpForceThresholdMultiplier: 1
+  LodgeStrengthMultiplier: 1
+  SharpAxes: []
+  Softness: 1
+  BulletSpeedAbsorptionPower: 0
+  Brittleness: 1
+  Buoyancy: 1
+  Flammability: 1
+  MagneticAttractionIntensity: 0
+  Conducting: 0
+  Burnrate: 1
+  BurningTemperatureThreshold: 90
+  HeatTransferSpeedMultiplier: 0.2
+  SizzleSounds: []
+  SoftImpact:
+  - {fileID: 8300000, guid: 1c1dfc6ddcfa4426bce2f592502e1c22, type: 3}
+  - {fileID: 8300000, guid: 17cb946040384019ba946d35489eb0ca, type: 3}
+  - {fileID: 8300000, guid: 32e400eb29524bb698aed7a99248f6b0, type: 3}
+  HardImpact:
+  - {fileID: 8300000, guid: 1c1dfc6ddcfa4426bce2f592502e1c22, type: 3}
+  - {fileID: 8300000, guid: 17cb946040384019ba946d35489eb0ca, type: 3}
+  - {fileID: 8300000, guid: 32e400eb29524bb698aed7a99248f6b0, type: 3}
+  ImpactIntensityMutliplier: 4
+  HitVolumeMultiplier: 4
+  SlidingLoop: {fileID: 8300000, guid: 0c396ffbd6614f19a655d6d4f5ff7204, type: 3}
+  StabSound: []
+  ShotImpact: {fileID: 1791060650251976516, guid: 386f5d60a4424345ab95a85a702e3a52, type: 2}
+  IsPoolable: 1

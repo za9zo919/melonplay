@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aab867c8741be6cc75ca8bb43cc342e9, type: 3}
+  m_Name: "Wooden Wheel"
+  m_EditorClassIdentifier: 
+  Description: "Basic indestructible wooden wheel."
+  NameToOrderBy: "Wheel"
+  VisibleInCatalog: 1
+  Locked: 0
+  Category: {fileID: 11400000, guid: d50021a7aadf40b68b38d4283c5836a4, type: 2}
+  Prefab: {fileID: 1791060650251976095, guid: 12fbcdc992e14ab49e3fbc8041977a41, type: 2}
+  ViewSprite: {fileID: 21300000, guid: c3249b5f6c494a4f9eb50545aea91719, type: 3}
+  DragSprite: {fileID: 0}
+  HasPriorName: 0
+  PriorName: 
+  MigrationEvents: []

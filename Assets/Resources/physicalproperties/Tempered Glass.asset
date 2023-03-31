@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aeeccb67fcadfbf6ad49e4317b2b834, type: 3}
+  m_Name: "Tempered Glass"
+  m_EditorClassIdentifier: 
+  PhysicMaterial: {fileID: 6200000, guid: 1fe9521e80eb4689a8c854e10d79379c, type: 2}
+  Sharp: 0
+  SharpForceThresholdMultiplier: 1
+  LodgeStrengthMultiplier: 1
+  SharpAxes: []
+  Softness: 0
+  BulletSpeedAbsorptionPower: 0
+  Brittleness: 0.5
+  Buoyancy: 0
+  Flammability: 0
+  MagneticAttractionIntensity: 0
+  Conducting: 0
+  Burnrate: 0
+  BurningTemperatureThreshold: 2500
+  HeatTransferSpeedMultiplier: 1
+  SizzleSounds: []
+  SoftImpact:
+  - {fileID: 8300000, guid: 2e4b4b44111a4425b0071fb97a746a48, type: 3}
+  - {fileID: 8300000, guid: 94d4dc891abb47df9be6a0a82d8f0f40, type: 3}
+  - {fileID: 8300000, guid: 110006c9eb094d71b99b1bd9ea7da416, type: 3}
+  - {fileID: 8300000, guid: 401b7385675c44ed859e80df71720210, type: 3}
+  HardImpact:
+  - {fileID: 8300000, guid: 845f2ff3257c4c17a3e5ea1c2b096c61, type: 3}
+  - {fileID: 8300000, guid: ccf173c60b0d4d81b1aaa8bf3e9910cc, type: 3}
+  - {fileID: 8300000, guid: 38f7207032f34ae2aaafc1edabf2989f, type: 3}
+  - {fileID: 8300000, guid: 801516e965f7492489d5460eefdc335f, type: 3}
+  - {fileID: 8300000, guid: ed25bcc58f604bf297aa9ae0f6136512, type: 3}
+  - {fileID: 8300000, guid: ef3b483adc9e419484731964d3cbadce, type: 3}
+  ImpactIntensityMutliplier: 1
+  HitVolumeMultiplier: 3
+  SlidingLoop: {fileID: 8300000, guid: f5afec1af1134d28982ef5507f264b6a, type: 3}
+  StabSound: []
+  ShotImpact: {fileID: 1791060650251976517, guid: 2166b644e83d44c49ca1004685b9ce94, type: 2}
+  IsPoolable: 1

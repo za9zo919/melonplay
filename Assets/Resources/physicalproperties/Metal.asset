@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aeeccb67fcadfbf6ad49e4317b2b834, type: 3}
+  m_Name: "Metal"
+  m_EditorClassIdentifier: 
+  PhysicMaterial: {fileID: 6200000, guid: 1fe9521e80eb4689a8c854e10d79379c, type: 2}
+  Sharp: 0
+  SharpForceThresholdMultiplier: 1
+  LodgeStrengthMultiplier: 1
+  SharpAxes: []
+  Softness: 0
+  BulletSpeedAbsorptionPower: 1.7
+  Brittleness: 0
+  Buoyancy: 0
+  Flammability: 0
+  MagneticAttractionIntensity: 1
+  Conducting: 1
+  Burnrate: 0
+  BurningTemperatureThreshold: 5000
+  HeatTransferSpeedMultiplier: 1
+  SizzleSounds: []
+  SoftImpact:
+  - {fileID: 8300000, guid: 2025a775a70146a19328ef3902f605b0, type: 3}
+  - {fileID: 8300000, guid: 00e8808dff8346d7b8ec649fcce7abf2, type: 3}
+  - {fileID: 8300000, guid: 2b56a08566034336808ad941e8d5a532, type: 3}
+  - {fileID: 8300000, guid: bde1a9897a7144ea931e065b834f4ec3, type: 3}
+  - {fileID: 8300000, guid: ed1b68778c4942dd802e1414b4aa9c0e, type: 3}
+  - {fileID: 8300000, guid: 76b43569dd8340a88f535a9fb52e0e48, type: 3}
+  - {fileID: 8300000, guid: 45c191d4777640dea3b701de5ecdf72c, type: 3}
+  - {fileID: 8300000, guid: e6d0f95d55e646ec8d847e3329985bfb, type: 3}
+  - {fileID: 8300000, guid: 7c2832315a914626be517381bbf0d9f7, type: 3}
+  - {fileID: 8300000, guid: 33ce2710a9c142b38bf60cd9bd28cec5, type: 3}
+  - {fileID: 8300000, guid: d5232ff3e940488db60547e50810d323, type: 3}
+  - {fileID: 8300000, guid: d0e5a676d947465993652cc3093eaae5, type: 3}
+  - {fileID: 8300000, guid: 4690a3f11ec84e8ea2b55292be0d169b, type: 3}
+  - {fileID: 8300000, guid: ccc52e81dd054d288dbafde35d81a8fc, type: 3}
+  - {fileID: 8300000, guid: a64e1b1723d44392bb07ee6eb410411b, type: 3}
+  - {fileID: 8300000, guid: 730d0ca128234f95bf4f3f762c651401, type: 3}
+  - {fileID: 8300000, guid: 4df25ca125bb4b76aacac86a88e027b0, type: 3}
+  - {fileID: 8300000, guid: 928bf65d4f204d08adab9ee3a4f6814b, type: 3}
+  HardImpact:
+  - {fileID: 8300000, guid: a3f0b07cd6184a659e8075a35e59756d, type: 3}
+  - {fileID: 8300000, guid: 4808c3bdf9e4483684d9e1015838d720, type: 3}
+  - {fileID: 8300000, guid: b21ee04fb17240e0bf6d01f854ff5482, type: 3}
+  - {fileID: 8300000, guid: 0be87c00a6184b7d81e23bc0e7c3bc54, type: 3}
+  - {fileID: 8300000, guid: 409464cce739444582c4af385c31e537, type: 3}
+  - {fileID: 8300000, guid: e5904eeabb054a2b9ce384080e77c642, type: 3}
+  - {fileID: 8300000, guid: 0e5848f78d57492e9552e238b2e0d710, type: 3}
+  - {fileID: 8300000, guid: d577a9abf62a4f70a2db1dc7f517c96d, type: 3}
+  ImpactIntensityMutliplier: 1
+  HitVolumeMultiplier: 1
+  SlidingLoop: {fileID: 8300000, guid: 7ab437f0ebb4430696f0da149bbfac39, type: 3}
+  StabSound: []
+  ShotImpact: {fileID: 1791060650251976805, guid: b2b5ea4633f44ed2ba52847810fc40fa, type: 2}
+  IsPoolable: 1

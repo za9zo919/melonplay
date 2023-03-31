@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4adff4e42192a787a1ebbaba84ff83b8, type: 3}
+  m_Name: "Substructure"
+  m_EditorClassIdentifier: 
+  UniqueIdentity: "004cb5da-0d40-4fc7-aba2-d86a9659c724"
+  Description: "A replica of an old subterranean part of the facility."
+  Thumbnail: {fileID: 21300000, guid: 3078ea7f98f54dd290d705ee18f15462, type: 3}
+  Preview: {fileID: 21300000, guid: 3078ea7f98f54dd290d705ee18f15462, type: 3}
+  Prefab: {fileID: 1791060650251977631, guid: 93522ea6d01847bd9c6a84a25b5c6635, type: 2}

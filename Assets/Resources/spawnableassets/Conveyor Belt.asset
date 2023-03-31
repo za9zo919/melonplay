@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aab867c8741be6cc75ca8bb43cc342e9, type: 3}
+  m_Name: "Conveyor Belt"
+  m_EditorClassIdentifier: 
+  Description: "A belt that conveys."
+  NameToOrderBy: 
+  VisibleInCatalog: 1
+  Locked: 0
+  Category: {fileID: 11400000, guid: ea3df9bc407f4261ab611d4cee9e53dc, type: 2}
+  Prefab: {fileID: 1791060650251977234, guid: 8e08746f53fe40ce869828a9697c01ae, type: 2}
+  ViewSprite: {fileID: 21300000, guid: 2ca8b05edff24229802f625c1f94e900, type: 3}
+  DragSprite: {fileID: 0}
+  HasPriorName: 0
+  PriorName: 
+  MigrationEvents: []

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4adff4e42192a787a1ebbaba84ff83b8, type: 3}
+  m_Name: "Tower"
+  m_EditorClassIdentifier: 
+  UniqueIdentity: "5bb837ca-bbf1-4b64-a39d-33b0ab684e1d"
+  Description: "Large space with a tall tower in the middle"
+  Thumbnail: {fileID: 21300000, guid: 9cc7e4dee9394a2a99b36f854f3601bd, type: 3}
+  Preview: {fileID: 21300000, guid: 73263067a1744012a529d51a4567f563, type: 3}
+  Prefab: {fileID: 1791060650251976802, guid: bda3b19bb8f341a1b5fb696addcc0497, type: 2}

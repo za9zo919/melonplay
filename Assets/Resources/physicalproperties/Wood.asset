@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aeeccb67fcadfbf6ad49e4317b2b834, type: 3}
+  m_Name: "Wood"
+  m_EditorClassIdentifier: 
+  PhysicMaterial: {fileID: 6200000, guid: 68891f76153c4cfda9a117cbfff9ed38, type: 2}
+  Sharp: 0
+  SharpForceThresholdMultiplier: 1
+  LodgeStrengthMultiplier: 1
+  SharpAxes: []
+  Softness: 0.2
+  BulletSpeedAbsorptionPower: 0
+  Brittleness: 0.147
+  Buoyancy: 0.6
+  Flammability: 0.4
+  MagneticAttractionIntensity: 0
+  Conducting: 0
+  Burnrate: 0.02857143
+  BurningTemperatureThreshold: 300
+  HeatTransferSpeedMultiplier: 0.503
+  SizzleSounds:
+  - {fileID: 8300000, guid: 4379af4b300e491584db685bf84e67fc, type: 3}
+  - {fileID: 8300000, guid: 061538fd7fa74c0493159a6147dd6b5f, type: 3}
+  - {fileID: 8300000, guid: ad18ca65fc8f4a538dad8c1dc3db0728, type: 3}
+  - {fileID: 8300000, guid: 83fa32dcc4b545d4bd6b4762a17bbd61, type: 3}
+  SoftImpact:
+  - {fileID: 8300000, guid: 96d420f089ba410088480cf62ffc358b, type: 3}
+  - {fileID: 8300000, guid: 01f8fa1ac4d8417e8c24c5e053b5e5ec, type: 3}
+  - {fileID: 8300000, guid: 5d49f26513e24bcdb51eb9d20de592c9, type: 3}
+  - {fileID: 8300000, guid: f0a46996ab6a47ca9ef2c4d43495ae77, type: 3}
+  - {fileID: 8300000, guid: 1e2ee122d86741bb8e22bfbc6e473217, type: 3}
+  - {fileID: 8300000, guid: 157a7d80616e420bb55c0b5764a1348b, type: 3}
+  HardImpact:
+  - {fileID: 8300000, guid: 157a7d80616e420bb55c0b5764a1348b, type: 3}
+  - {fileID: 8300000, guid: 1e2ee122d86741bb8e22bfbc6e473217, type: 3}
+  - {fileID: 8300000, guid: f0a46996ab6a47ca9ef2c4d43495ae77, type: 3}
+  ImpactIntensityMutliplier: 1
+  HitVolumeMultiplier: 1
+  SlidingLoop: {fileID: 8300000, guid: 7ab437f0ebb4430696f0da149bbfac39, type: 3}
+  StabSound:
+  - {fileID: 8300000, guid: d9ba33aa957e422fad0f453b2f69698a, type: 3}
+  ShotImpact: {fileID: 1791060650251976630, guid: d77a936e596447dea546f91489db4ad5, type: 2}
+  IsPoolable: 1

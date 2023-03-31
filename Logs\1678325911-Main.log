@@ -1,0 +1,212 @@
+48.32 [LOG] Action drag is in universe All
+48.32 [LOG] Action delete is in universe All
+48.32 [LOG] Action activateDirect is in universe Game
+48.32 [LOG] Action slowmo is in universe Game
+48.32 [LOG] Action toggleLimbStatus is in universe Game
+48.32 [LOG] Action time is in universe Game
+48.32 [LOG] Action tool1 is in universe Game
+48.32 [LOG] Action tool2 is in universe Game
+48.32 [LOG] Action tool3 is in universe Game
+48.32 [LOG] Action tool4 is in universe Game
+48.32 [LOG] Action tool5 is in universe Game
+48.32 [LOG] Action tool6 is in universe Game
+48.32 [LOG] Action tool7 is in universe Game
+48.32 [LOG] Action tool8 is in universe Game
+48.32 [LOG] Action tool9 is in universe Game
+48.32 [LOG] Action spawnLeft is in universe Game
+48.32 [LOG] Action spawnRight is in universe Game
+48.32 [LOG] Action left is in universe All
+48.32 [LOG] Action right is in universe All
+48.32 [LOG] Action fast is in universe All
+48.32 [LOG] Action undo is in universe All
+48.32 [LOG] Action snap is in universe All
+48.32 [LOG] Action snapToCenter is in universe Game
+48.32 [LOG] Action copy is in universe All
+48.32 [LOG] Action paste is in universe All
+48.32 [LOG] Action context is in universe All
+48.32 [LOG] Action igniteSelection is in universe Game
+48.32 [LOG] Action freezeSelection is in universe Game
+48.32 [LOG] Action resizeSelection is in universe Game
+48.32 [LOG] Action toggleThermalVision is in universe Game
+48.32 [LOG] Action eyedrop is in universe All
+48.32 [LOG] Action pause is in universe All
+48.32 [LOG] Action toybox is in universe All
+48.32 [LOG] Action toolPowerToggle is in universe Game
+48.32 [LOG] Action toggleHoveringHighlights is in universe Game
+48.32 [LOG] Action pan is in universe All
+48.32 [LOG] Action panRight is in universe All
+48.32 [LOG] Action panLeft is in universe All
+48.32 [LOG] Action panUp is in universe All
+48.32 [LOG] Action panDown is in universe All
+48.32 [LOG] Action zoomIn is in universe All
+48.32 [LOG] Action zoomOut is in universe All
+48.32 [EXCEPTION] UnassignedReferenceException: The variable SaturationValueBox of ColorpickerDialogBehaviour has not been assigned.
+You probably need to assign the SaturationValueBox variable of the ColorpickerDialogBehaviour script in the inspector.
+	UnityEngine.Component.GetComponent[T] () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/Component.bindings.cs:42)
+ColorpickerDialogBehaviour.Awake () (at Assets/Scripts/ColorpickerDialogBehaviour.cs:96)
+
+
+48.32 [ERROR] Destroying assets is not permitted to avoid data loss.
+If you really want to remove an asset use DestroyImmediate (theObject, true);
+	UnityEngine.Object:Destroy (UnityEngine.Object)
+LightRenderCameraBehaviour:ResetRT () (at Assets/Scripts/LightRenderCameraBehaviour.cs:25)
+LightRenderCameraBehaviour:Start () (at Assets/Scripts/LightRenderCameraBehaviour.cs:17)
+
+
+48.32 [LOG] New light overlay texture created: True, 1920x1080
+48.32 [EXCEPTION] NullReferenceException: Object reference not set to an instance of an object
+	LightRenderCameraBehaviour.ResetRT () (at Assets/Scripts/LightRenderCameraBehaviour.cs:29)
+LightRenderCameraBehaviour.Start () (at Assets/Scripts/LightRenderCameraBehaviour.cs:17)
+
+
+48.32 [WARNING] Exposed name does not exist: master
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:29)
+MixerControllerBehaviour:Start () (at Assets/Scripts/MixerControllerBehaviour.cs:38)
+
+
+48.32 [WARNING] Exposed name does not exist: sfx
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:30)
+MixerControllerBehaviour:Start () (at Assets/Scripts/MixerControllerBehaviour.cs:38)
+
+
+48.32 [WARNING] Exposed name does not exist: userInterface
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:31)
+MixerControllerBehaviour:Start () (at Assets/Scripts/MixerControllerBehaviour.cs:38)
+
+
+48.32 [WARNING] Exposed name does not exist: ambience
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:32)
+MixerControllerBehaviour:Start () (at Assets/Scripts/MixerControllerBehaviour.cs:38)
+
+
+48.32 [WARNING] Exposed name does not exist: cracking_threshold
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:33)
+MixerControllerBehaviour:Start () (at Assets/Scripts/MixerControllerBehaviour.cs:38)
+
+
+48.32 [LOG] {
+  "CollisionQuality": 0,
+  "StopAnimationOnDamage": false,
+  "DropOnDeath": true,
+  "ShakeIntensity": 1.0,
+  "ShowOutlines": true,
+  "SlowMotionSpeed": 20.0,
+  "AmbientTemperatureTransfer": false,
+  "PhysicsIterations": 16,
+  "ShowModLoadingFreeze": true,
+  "RejectShadyCode": true,
+  "MaxModCompilationTime": 30,
+  "GorelessMode": false,
+  "LimbCrushing": true,
+  "LimbOverflowExplosion": false,
+  "GoreMode": 0,
+  "AutoHealWounds": true,
+  "ChunkyShotParticles": true,
+  "DismembermentLooseTissue": true,
+  "CrushForceMultiplier": 1.0,
+  "BloomMode": 2,
+  "TracerBullets": false,
+  "FancyEffects": true,
+  "Decals": true,
+  "Lighting": true,
+  "MasterVolume": 1.0,
+  "SfxVolume": 1.0,
+  "UserInterfaceVolume": 1.0,
+  "AmbienceVolume": 1.0,
+  "AmbienceHighpassCutoff": 90.0,
+  "ClampVolume": true,
+  "DistantSoundEffects": true,
+  "LogDebugMessages": false,
+  "ShowFramerate": false,
+  "ZoomSensitivity": 1.0,
+  "ThermalVisionUpdateRate": 25,
+  "DeleteWireByContextMenu": true,
+  "TemperatureUnit": 0,
+  "VSync": false,
+  "SMAA": false,
+  "TonemappingMode": 0,
+  "Brightness": 100.0,
+  "RenderScale": 1.0,
+  "FramerateLimit": 144,
+  "SimplifiedBackground": false,
+  "WindowMode": 1,
+  "Resolution": null,
+  "ShowTutorial": false,
+  "ToyboxSizeOffset": 483.6
+}
+48.32 [WARNING] Exposed name does not exist: master
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:29)
+Global:SetPausedMenu (bool,string) (at Assets/Scripts/Global.cs:237)
+Global:Start () (at Assets/Scripts/Global.cs:350)
+
+
+48.32 [WARNING] Exposed name does not exist: sfx
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:30)
+Global:SetPausedMenu (bool,string) (at Assets/Scripts/Global.cs:237)
+Global:Start () (at Assets/Scripts/Global.cs:350)
+
+
+48.32 [WARNING] Exposed name does not exist: userInterface
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:31)
+Global:SetPausedMenu (bool,string) (at Assets/Scripts/Global.cs:237)
+Global:Start () (at Assets/Scripts/Global.cs:350)
+
+
+48.32 [WARNING] Exposed name does not exist: ambience
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:32)
+Global:SetPausedMenu (bool,string) (at Assets/Scripts/Global.cs:237)
+Global:Start () (at Assets/Scripts/Global.cs:350)
+
+
+48.32 [WARNING] Exposed name does not exist: cracking_threshold
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:33)
+Global:SetPausedMenu (bool,string) (at Assets/Scripts/Global.cs:237)
+Global:Start () (at Assets/Scripts/Global.cs:350)
+
+
+48.32 [WARNING] The referenced script (Unknown) on this Behaviour is missing!
+	UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Transform)
+MapConfig:PrepareWeatherInstance (UnityEngine.GameObject) (at Assets/Scripts/MapConfig.cs:155)
+MapConfig:Reinitialise () (at Assets/Scripts/MapConfig.cs:106)
+MapConfig:Start () (at Assets/Scripts/MapConfig.cs:139)
+
+
+48.32 [WARNING] The referenced script on this Behaviour (Game Object 'post') is missing!
+	UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Transform)
+MapConfig:PrepareWeatherInstance (UnityEngine.GameObject) (at Assets/Scripts/MapConfig.cs:155)
+MapConfig:Reinitialise () (at Assets/Scripts/MapConfig.cs:106)
+MapConfig:Start () (at Assets/Scripts/MapConfig.cs:139)
+
+
+48.32 [WARNING] The referenced script on this Behaviour (Game Object 'post') is missing!
+	UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Transform)
+MapConfig:PrepareWeatherInstance (UnityEngine.GameObject) (at Assets/Scripts/MapConfig.cs:155)
+MapConfig:Reinitialise () (at Assets/Scripts/MapConfig.cs:106)
+MapConfig:Start () (at Assets/Scripts/MapConfig.cs:139)
+
+
+48.32 [EXCEPTION] NullReferenceException: Object reference not set to an instance of an object
+	MapConfig.ApplySettings (EnvironmentalSettings settings) (at Assets/Scripts/MapConfig.cs:186)
+MapConfig.Reinitialise () (at Assets/Scripts/MapConfig.cs:132)
+MapConfig.Start () (at Assets/Scripts/MapConfig.cs:139)
+
+
+66.12 [LOG] Compiler client stopped and server terminated.
+0 [ERROR] Could not load image /Users/soufianekhramez/Desktop/PP125 Project/Assets/Plugins/System.Runtime.CompilerServices.Unsafe.dll due to Invalid Section Aligmnent 1000
+Run the peverify utility against this for more information.
+0 [EXCEPTION] FileNotFoundException: Could not load file or assembly 'System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies.
+	Ceras.CerasSerializer.Serialize[T] (T obj) (at <077a6b5cd8cc466399b104680bf19c16>:0)
+NonSteamStatManager.SaveToFile (System.String path) (at Assets/Scripts/NonSteamStatManager.cs:74)
+Global.OnDestroy () (at Assets/Scripts/Global.cs:696)
+
+

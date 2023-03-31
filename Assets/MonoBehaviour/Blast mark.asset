@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4fe10dcb06e9bbae21af151e48cc18, type: 3}
+  m_Name: "Blast mark"
+  m_EditorClassIdentifier: 
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  IgnoreRadius: 0.3
+  Sprites:
+  - {fileID: 21300000, guid: cac1f7d39fe348a2a9c3b4c2a06422c4, type: 3}
+  - {fileID: 21300000, guid: 7d761512ecab4ac3b895746b7dd8c4dc, type: 3}
+  - {fileID: 21300000, guid: 0c85c5878e75467bb80842a01e34aef2, type: 3}
+  - {fileID: 21300000, guid: 17805a880d814156861ccd52537a9227, type: 3}

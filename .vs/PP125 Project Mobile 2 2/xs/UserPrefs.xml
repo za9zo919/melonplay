@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{F8C654C7-7830-AB88-5908-5C05BCA41417}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BackgroundItemLoader.cs">
+    <Files>
+      <File FileName="Assets/Scripts/ModLoader.cs" Line="78" Column="15" />
+      <File FileName="Assets/Scripts/ModEntryBehaviour.cs" Line="187" Column="37" />
+      <File FileName="Assets/Scripts/BackgroundItemLoader.cs" Line="217" Column="69" />
+      <File FileName="Assets/Scripts/ModListBehaviour.cs" Line="68" Column="50" />
+      <File FileName="Assets/Scripts/ModMetaData.cs" Line="18" Column="26" />
+      <File FileName="Assets/Scripts/ModificationManager.cs" Line="85" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PP125 Project Mobile 2 2" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="WatsonTcp" expanded="True" />
+                <Node name="BackgroundItemLoader.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d5f237d3-1d68-4bac-aaaa-8cce009acca3" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

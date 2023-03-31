@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aeeccb67fcadfbf6ad49e4317b2b834, type: 3}
+  m_Name: "BigWood"
+  m_EditorClassIdentifier: 
+  PhysicMaterial: {fileID: 6200000, guid: 68891f76153c4cfda9a117cbfff9ed38, type: 2}
+  Sharp: 0
+  SharpForceThresholdMultiplier: 1
+  LodgeStrengthMultiplier: 1
+  SharpAxes: []
+  Softness: 0.1
+  BulletSpeedAbsorptionPower: 0
+  Brittleness: 0
+  Buoyancy: 1
+  Flammability: 0.872
+  MagneticAttractionIntensity: 0
+  Conducting: 0
+  Burnrate: 0.01706667
+  BurningTemperatureThreshold: 300
+  HeatTransferSpeedMultiplier: 0.5
+  SizzleSounds:
+  - {fileID: 8300000, guid: 4379af4b300e491584db685bf84e67fc, type: 3}
+  - {fileID: 8300000, guid: 061538fd7fa74c0493159a6147dd6b5f, type: 3}
+  - {fileID: 8300000, guid: ad18ca65fc8f4a538dad8c1dc3db0728, type: 3}
+  - {fileID: 8300000, guid: 83fa32dcc4b545d4bd6b4762a17bbd61, type: 3}
+  SoftImpact:
+  - {fileID: 8300000, guid: 93fa4974bf6743d2b4f61e069c25388c, type: 3}
+  - {fileID: 8300000, guid: 2fc63d54cbd54c54ab0927c8db95edec, type: 3}
+  - {fileID: 8300000, guid: 6d6f9de9d0af4fe9b1bf27ff627da7ac, type: 3}
+  - {fileID: 8300000, guid: 80efd4c9cac84cb8b2b158e5018bfef6, type: 3}
+  HardImpact:
+  - {fileID: 8300000, guid: a3318465e9034ff2bacbef4febc903e8, type: 3}
+  - {fileID: 8300000, guid: c02275323f654d768ba042d68db83564, type: 3}
+  - {fileID: 8300000, guid: 0352c94e5dc445a983729be0a613c817, type: 3}
+  - {fileID: 8300000, guid: c403b3da6cc24a5e96e5c773187ae155, type: 3}
+  ImpactIntensityMutliplier: 0.2
+  HitVolumeMultiplier: 2
+  SlidingLoop: {fileID: 8300000, guid: f348312dfa7f4ff39fea0b15f0269d22, type: 3}
+  StabSound:
+  - {fileID: 8300000, guid: c0e25b0e1b724911893d36db60d1ca2b, type: 3}
+  ShotImpact: {fileID: 1791060650251976630, guid: d77a936e596447dea546f91489db4ad5, type: 2}
+  IsPoolable: 1

@@ -1,0 +1,1143 @@
+9.62 [LOG] Action drag is in universe All
+9.62 [LOG] Action delete is in universe All
+9.62 [LOG] Action activateDirect is in universe Game
+9.62 [LOG] Action slowmo is in universe Game
+9.62 [LOG] Action toggleLimbStatus is in universe Game
+9.62 [LOG] Action time is in universe Game
+9.62 [LOG] Action tool1 is in universe Game
+9.62 [LOG] Action tool2 is in universe Game
+9.62 [LOG] Action tool3 is in universe Game
+9.62 [LOG] Action tool4 is in universe Game
+9.62 [LOG] Action tool5 is in universe Game
+9.62 [LOG] Action tool6 is in universe Game
+9.62 [LOG] Action tool7 is in universe Game
+9.62 [LOG] Action tool8 is in universe Game
+9.62 [LOG] Action tool9 is in universe Game
+9.62 [LOG] Action spawnLeft is in universe Game
+9.62 [LOG] Action spawnRight is in universe Game
+9.62 [LOG] Action left is in universe All
+9.62 [LOG] Action right is in universe All
+9.62 [LOG] Action fast is in universe All
+9.62 [LOG] Action undo is in universe All
+9.62 [LOG] Action snap is in universe All
+9.62 [LOG] Action snapToCenter is in universe Game
+9.62 [LOG] Action copy is in universe All
+9.62 [LOG] Action paste is in universe All
+9.62 [LOG] Action context is in universe All
+9.62 [LOG] Action igniteSelection is in universe Game
+9.62 [LOG] Action freezeSelection is in universe Game
+9.62 [LOG] Action resizeSelection is in universe Game
+9.62 [LOG] Action toggleThermalVision is in universe Game
+9.62 [LOG] Action eyedrop is in universe All
+9.62 [LOG] Action pause is in universe All
+9.62 [LOG] Action toybox is in universe All
+9.62 [LOG] Action toolPowerToggle is in universe Game
+9.62 [LOG] Action toggleHoveringHighlights is in universe Game
+9.62 [LOG] Action pan is in universe All
+9.62 [LOG] Action panRight is in universe All
+9.62 [LOG] Action panLeft is in universe All
+9.62 [LOG] Action panUp is in universe All
+9.62 [LOG] Action panDown is in universe All
+9.62 [LOG] Action zoomIn is in universe All
+9.62 [LOG] Action zoomOut is in universe All
+9.62 [EXCEPTION] UnassignedReferenceException: The variable SaturationValueBox of ColorpickerDialogBehaviour has not been assigned.
+You probably need to assign the SaturationValueBox variable of the ColorpickerDialogBehaviour script in the inspector.
+	UnityEngine.Component.GetComponent[T] () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/Component.bindings.cs:42)
+ColorpickerDialogBehaviour.Awake () (at Assets/Scripts/ColorpickerDialogBehaviour.cs:96)
+
+
+9.62 [ERROR] Destroying assets is not permitted to avoid data loss.
+If you really want to remove an asset use DestroyImmediate (theObject, true);
+	UnityEngine.Object:Destroy (UnityEngine.Object)
+LightRenderCameraBehaviour:ResetRT () (at Assets/Scripts/LightRenderCameraBehaviour.cs:25)
+LightRenderCameraBehaviour:Start () (at Assets/Scripts/LightRenderCameraBehaviour.cs:17)
+
+
+9.62 [LOG] New light overlay texture created: True, 1920x1080
+9.62 [EXCEPTION] NullReferenceException: Object reference not set to an instance of an object
+	LightRenderCameraBehaviour.ResetRT () (at Assets/Scripts/LightRenderCameraBehaviour.cs:29)
+LightRenderCameraBehaviour.Start () (at Assets/Scripts/LightRenderCameraBehaviour.cs:17)
+
+
+9.62 [WARNING] Exposed name does not exist: master
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:29)
+MixerControllerBehaviour:Start () (at Assets/Scripts/MixerControllerBehaviour.cs:38)
+
+
+9.62 [WARNING] Exposed name does not exist: sfx
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:30)
+MixerControllerBehaviour:Start () (at Assets/Scripts/MixerControllerBehaviour.cs:38)
+
+
+9.62 [WARNING] Exposed name does not exist: userInterface
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:31)
+MixerControllerBehaviour:Start () (at Assets/Scripts/MixerControllerBehaviour.cs:38)
+
+
+9.62 [WARNING] Exposed name does not exist: ambience
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:32)
+MixerControllerBehaviour:Start () (at Assets/Scripts/MixerControllerBehaviour.cs:38)
+
+
+9.62 [WARNING] Exposed name does not exist: cracking_threshold
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:33)
+MixerControllerBehaviour:Start () (at Assets/Scripts/MixerControllerBehaviour.cs:38)
+
+
+9.62 [LOG] {
+  "CollisionQuality": 0,
+  "StopAnimationOnDamage": false,
+  "DropOnDeath": true,
+  "ShakeIntensity": 1.0,
+  "ShowOutlines": true,
+  "SlowMotionSpeed": 20.0,
+  "AmbientTemperatureTransfer": false,
+  "PhysicsIterations": 16,
+  "ShowModLoadingFreeze": true,
+  "RejectShadyCode": true,
+  "MaxModCompilationTime": 30,
+  "GorelessMode": false,
+  "LimbCrushing": true,
+  "LimbOverflowExplosion": false,
+  "GoreMode": 0,
+  "AutoHealWounds": true,
+  "ChunkyShotParticles": true,
+  "DismembermentLooseTissue": true,
+  "CrushForceMultiplier": 1.0,
+  "BloomMode": 2,
+  "TracerBullets": false,
+  "FancyEffects": true,
+  "Decals": true,
+  "Lighting": true,
+  "MasterVolume": 1.0,
+  "SfxVolume": 1.0,
+  "UserInterfaceVolume": 1.0,
+  "AmbienceVolume": 1.0,
+  "AmbienceHighpassCutoff": 90.0,
+  "ClampVolume": true,
+  "DistantSoundEffects": true,
+  "LogDebugMessages": false,
+  "ShowFramerate": false,
+  "ZoomSensitivity": 1.0,
+  "ThermalVisionUpdateRate": 25,
+  "DeleteWireByContextMenu": true,
+  "TemperatureUnit": 0,
+  "VSync": false,
+  "SMAA": false,
+  "TonemappingMode": 0,
+  "Brightness": 100.0,
+  "RenderScale": 1.0,
+  "FramerateLimit": 144,
+  "SimplifiedBackground": false,
+  "WindowMode": 1,
+  "Resolution": null,
+  "ShowTutorial": false,
+  "ToyboxSizeOffset": 483.6
+}
+9.62 [WARNING] Exposed name does not exist: master
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:29)
+Global:SetPausedMenu (bool,string) (at Assets/Scripts/Global.cs:237)
+Global:Start () (at Assets/Scripts/Global.cs:350)
+
+
+9.62 [WARNING] Exposed name does not exist: sfx
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:30)
+Global:SetPausedMenu (bool,string) (at Assets/Scripts/Global.cs:237)
+Global:Start () (at Assets/Scripts/Global.cs:350)
+
+
+9.62 [WARNING] Exposed name does not exist: userInterface
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:31)
+Global:SetPausedMenu (bool,string) (at Assets/Scripts/Global.cs:237)
+Global:Start () (at Assets/Scripts/Global.cs:350)
+
+
+9.62 [WARNING] Exposed name does not exist: ambience
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:32)
+Global:SetPausedMenu (bool,string) (at Assets/Scripts/Global.cs:237)
+Global:Start () (at Assets/Scripts/Global.cs:350)
+
+
+9.62 [WARNING] Exposed name does not exist: cracking_threshold
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+MixerControllerBehaviour:Sync () (at Assets/Scripts/MixerControllerBehaviour.cs:33)
+Global:SetPausedMenu (bool,string) (at Assets/Scripts/Global.cs:237)
+Global:Start () (at Assets/Scripts/Global.cs:350)
+
+
+9.62 [WARNING] The referenced script (Unknown) on this Behaviour is missing!
+	UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Transform)
+MapConfig:PrepareWeatherInstance (UnityEngine.GameObject) (at Assets/Scripts/MapConfig.cs:155)
+MapConfig:Reinitialise () (at Assets/Scripts/MapConfig.cs:106)
+MapConfig:Start () (at Assets/Scripts/MapConfig.cs:139)
+
+
+9.62 [WARNING] The referenced script on this Behaviour (Game Object 'post') is missing!
+	UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Transform)
+MapConfig:PrepareWeatherInstance (UnityEngine.GameObject) (at Assets/Scripts/MapConfig.cs:155)
+MapConfig:Reinitialise () (at Assets/Scripts/MapConfig.cs:106)
+MapConfig:Start () (at Assets/Scripts/MapConfig.cs:139)
+
+
+9.62 [WARNING] The referenced script on this Behaviour (Game Object 'post') is missing!
+	UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Transform)
+MapConfig:PrepareWeatherInstance (UnityEngine.GameObject) (at Assets/Scripts/MapConfig.cs:155)
+MapConfig:Reinitialise () (at Assets/Scripts/MapConfig.cs:106)
+MapConfig:Start () (at Assets/Scripts/MapConfig.cs:139)
+
+
+9.62 [EXCEPTION] NullReferenceException: Object reference not set to an instance of an object
+	MapConfig.ApplySettings (EnvironmentalSettings settings) (at Assets/Scripts/MapConfig.cs:186)
+MapConfig.Reinitialise () (at Assets/Scripts/MapConfig.cs:132)
+MapConfig.Start () (at Assets/Scripts/MapConfig.cs:139)
+
+
+14.15 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:IncrementInteger (StatManager/Stat,int) (at Assets/Scripts/StatManager.cs:111)
+CatalogBehaviour:Spawn (SpawnableAsset,bool) (at Assets/Scripts/CatalogBehaviour.cs:430)
+CatalogBehaviour:Update () (at Assets/Scripts/CatalogBehaviour.cs:378)
+
+
+14.15 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:IncrementInteger (StatManager/Stat,int) (at Assets/Scripts/StatManager.cs:111)
+IncreaseStatOnStart:Start () (at Assets/Scripts/IncreaseStatOnStart.cs:17)
+
+
+14.25 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.28 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.43 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.46 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.47 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.48 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.49 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.5 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.51 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.52 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.53 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.54 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.55 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.56 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.57 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.57 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.58 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.59 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.6 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.61 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.61 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.63 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.65 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.66 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.67 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.67 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.68 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.7 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.71 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.71 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.72 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.73 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.74 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.75 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.75 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.77 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.77 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.78 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.8 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.81 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.83 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.83 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.84 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.85 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.86 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.87 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.87 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.88 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.9 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.91 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.91 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.92 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.93 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.94 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.95 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.96 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.97 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.97 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.98 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+14.99 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+15 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+15.01 [WARNING] Attempt to call SteamWorks API before initialisation
+	UnityEngine.Debug:LogWarning (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:76)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+15.01 [ERROR] Max stat failure count reached: stop trying :(
+	UnityEngine.Debug:LogError (object)
+StatManager:SteamManagerCheck () (at Assets/Scripts/StatManager.cs:79)
+StatManager:GetFloat (StatManager/Stat) (at Assets/Scripts/StatManager.cs:169)
+PersonBehaviour:Update () (at Assets/Scripts/PersonBehaviour.cs:325)
+
+
+31.77 [ERROR] Shader error in 'Unlit/VertexColourCutout': redefinition of 'unity_ObjectToWorld' at line 39 (on metal)
+
+Compiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+37.71 [ERROR] Shader error in 'Jaap/UseWire': redefinition of 'unity_ObjectToWorld' at line 39 (on metal)
+
+Compiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+58.73 [WARNING] Cannot create the 2D joint on 'barrel' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:78)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+58.73 [WARNING] Cannot create the 2D joint on 'barrel' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:98)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+58.87 [ERROR] Shader error in 'Unlit/TwoSidedUnlit': redefinition of 'unity_ObjectToWorld' at line 36 (on metal)
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+59.26 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:78)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+59.26 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:98)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+60.81 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:78)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+60.81 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:98)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+61.71 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:78)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+61.71 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:98)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+64.71 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:78)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+64.71 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:98)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+65.88 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:78)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+65.88 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:98)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+66.73 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:78)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+66.73 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:98)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+67.68 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:78)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+67.68 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:98)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+68.5 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:78)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+68.5 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:98)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+68.94 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:78)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+68.94 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:98)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+69.63 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:78)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+69.63 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:98)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+70.15 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:78)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+70.15 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:98)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+70.7 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:78)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+70.7 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:98)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+71.29 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:78)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+71.29 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:98)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+72.49 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:78)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+72.49 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:98)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+73.71 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:78)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+73.71 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:98)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+74.33 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:78)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+74.33 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:98)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+75.01 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:78)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+75.01 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:98)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+75.66 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:78)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+75.66 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:98)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+76.63 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:78)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+76.63 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:98)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+77.48 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:78)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+77.48 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:98)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+78 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:78)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+78 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:98)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+78.87 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:78)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+78.87 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:98)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+79.86 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:78)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+79.86 [WARNING] Cannot create the 2D joint on 'Laser sentry turret' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:98)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+96.87 [WARNING] Attempt to refresh outline before outline initialisation
+	UnityEngine.Debug:LogWarning (object)
+PhysicalBehaviour:RefreshOutline () (at Assets/Scripts/PhysicalBehaviour.cs:843)
+RandomCarTextureBehaviour:SetSpritesToIndex () (at Assets/Scripts/RandomCarTextureBehaviour.cs:88)
+RandomCarTextureBehaviour:Awake () (at Assets/Scripts/RandomCarTextureBehaviour.cs:61)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+CatalogBehaviour:Spawn (SpawnableAsset,bool) (at Assets/Scripts/CatalogBehaviour.cs:416)
+CatalogBehaviour:Update () (at Assets/Scripts/CatalogBehaviour.cs:378)
+
+
+97.75 [WARNING] Cannot create the 2D joint on 'FrontDoor' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:78)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+97.75 [WARNING] Cannot create the 2D joint on 'FrontDoor' because it connects to itself.
+
+	UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DistanceWireTool:OnDeselect () (at Assets/Scripts/DistanceWireTool.cs:98)
+ToolControllerBehaviour:EscapeAndDeselect () (at Assets/Scripts/ToolControllerBehaviour.cs:346)
+ToolControllerBehaviour:HandleTools () (at Assets/Scripts/ToolControllerBehaviour.cs:317)
+ToolControllerBehaviour:Update () (at Assets/Scripts/ToolControllerBehaviour.cs:159)
+
+
+105.47 [LOG] Compiler client stopped and server terminated.
+0 [ERROR] Could not load image /Users/soufianekhramez/Desktop/PP125 Project/Assets/Plugins/System.Runtime.CompilerServices.Unsafe.dll due to Invalid Section Aligmnent 1000
+Run the peverify utility against this for more information.
+0 [EXCEPTION] FileNotFoundException: Could not load file or assembly 'System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies.
+	Ceras.CerasSerializer.Serialize[T] (T obj) (at <077a6b5cd8cc466399b104680bf19c16>:0)
+NonSteamStatManager.SaveToFile (System.String path) (at Assets/Scripts/NonSteamStatManager.cs:74)
+Global.OnDestroy () (at Assets/Scripts/Global.cs:696)
+
+

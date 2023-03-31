@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4adff4e42192a787a1ebbaba84ff83b8, type: 3}
+  m_Name: "Sea"
+  m_EditorClassIdentifier: 
+  UniqueIdentity: "35a41d94-8bc7-47a2-93de-3a297955e97c"
+  Description: "Large map with two coasts and a body of water"
+  Thumbnail: {fileID: 21300000, guid: 33fdd0c1a7774b7d80f3426c251d97ef, type: 3}
+  Preview: {fileID: 21300000, guid: e88fea49f9db41e3abc8b3ef000abd9e, type: 3}
+  Prefab: {fileID: 1791060650251976544, guid: c6a17c1d09ed47cd8add3e191d192ce6, type: 2}

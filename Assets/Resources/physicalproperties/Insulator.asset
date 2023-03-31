@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aeeccb67fcadfbf6ad49e4317b2b834, type: 3}
+  m_Name: "Insulator"
+  m_EditorClassIdentifier: 
+  PhysicMaterial: {fileID: 6200000, guid: 6eddd60c1fd84d019d2a0ecb919d5963, type: 2}
+  Sharp: 0
+  SharpForceThresholdMultiplier: 1
+  LodgeStrengthMultiplier: 1
+  SharpAxes: []
+  Softness: 0.859
+  BulletSpeedAbsorptionPower: 4
+  Brittleness: 0
+  Buoyancy: 0.55
+  Flammability: 0
+  MagneticAttractionIntensity: 0
+  Conducting: 0
+  Burnrate: 0.002
+  BurningTemperatureThreshold: 100
+  HeatTransferSpeedMultiplier: 0.02
+  SizzleSounds: []
+  SoftImpact:
+  - {fileID: 8300000, guid: 6b0054ddb10740dba0ebfbbd0cf179a8, type: 3}
+  - {fileID: 8300000, guid: 71ad67ed8ed949ce8c314df728da0748, type: 3}
+  - {fileID: 8300000, guid: e8a6cb50e83347d8aa83846960b1c6d2, type: 3}
+  - {fileID: 8300000, guid: 2a9dfd87edb74efca40cf1b84dfd60c0, type: 3}
+  - {fileID: 8300000, guid: f962dc69d9654cac9472db72795cd6ba, type: 3}
+  - {fileID: 8300000, guid: 3c543fcb14e54a989405161143496ca1, type: 3}
+  - {fileID: 8300000, guid: 76025133c983478585c0634c245071ed, type: 3}
+  - {fileID: 8300000, guid: 84d216c7d8f54022893db981fc53cd1d, type: 3}
+  - {fileID: 8300000, guid: 232f422136224e70bcf3ba1d3cc720a8, type: 3}
+  - {fileID: 8300000, guid: 4fa841d6d74040ddbbd382024eebc98c, type: 3}
+  HardImpact:
+  - {fileID: 8300000, guid: 6b0054ddb10740dba0ebfbbd0cf179a8, type: 3}
+  - {fileID: 8300000, guid: 71ad67ed8ed949ce8c314df728da0748, type: 3}
+  - {fileID: 8300000, guid: e8a6cb50e83347d8aa83846960b1c6d2, type: 3}
+  - {fileID: 8300000, guid: 2a9dfd87edb74efca40cf1b84dfd60c0, type: 3}
+  - {fileID: 8300000, guid: f962dc69d9654cac9472db72795cd6ba, type: 3}
+  - {fileID: 8300000, guid: 3c543fcb14e54a989405161143496ca1, type: 3}
+  - {fileID: 8300000, guid: 76025133c983478585c0634c245071ed, type: 3}
+  - {fileID: 8300000, guid: 84d216c7d8f54022893db981fc53cd1d, type: 3}
+  - {fileID: 8300000, guid: 232f422136224e70bcf3ba1d3cc720a8, type: 3}
+  - {fileID: 8300000, guid: 4fa841d6d74040ddbbd382024eebc98c, type: 3}
+  ImpactIntensityMutliplier: 1
+  HitVolumeMultiplier: 1
+  SlidingLoop: {fileID: 8300000, guid: 818e9e2933ed4ca8a387d10a7de6d73b, type: 3}
+  StabSound: []
+  ShotImpact: {fileID: 1791060650251976516, guid: 386f5d60a4424345ab95a85a702e3a52, type: 2}
+  IsPoolable: 1

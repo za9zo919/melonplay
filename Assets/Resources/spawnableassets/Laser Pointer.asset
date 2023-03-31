@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aab867c8741be6cc75ca8bb43cc342e9, type: 3}
+  m_Name: "Laser Pointer"
+  m_EditorClassIdentifier: 
+  Description: "A colourable laser pointer that becomes dangerous when powered."
+  NameToOrderBy: 
+  VisibleInCatalog: 1
+  Locked: 0
+  Category: {fileID: 11400000, guid: ea3df9bc407f4261ab611d4cee9e53dc, type: 2}
+  Prefab: {fileID: 1791060650251976826, guid: 0e715a1afe9847a084f209ff51d03a9d, type: 2}
+  ViewSprite: {fileID: 21300000, guid: 4ed65d24f78a4e1dae7ebaf0778e9a5a, type: 3}
+  DragSprite: {fileID: 0}
+  HasPriorName: 0
+  PriorName: 
+  MigrationEvents: []

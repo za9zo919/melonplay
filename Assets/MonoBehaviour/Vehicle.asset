@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aeeccb67fcadfbf6ad49e4317b2b834, type: 3}
+  m_Name: "Vehicle"
+  m_EditorClassIdentifier: 
+  PhysicMaterial: {fileID: 6200000, guid: d4175b33412a4739858f7e0bf98b6661, type: 2}
+  Sharp: 0
+  SharpForceThresholdMultiplier: 1
+  LodgeStrengthMultiplier: 1
+  SharpAxes: []
+  Softness: 0
+  BulletSpeedAbsorptionPower: 1
+  Brittleness: 0
+  Buoyancy: 0.05
+  Flammability: 0
+  MagneticAttractionIntensity: 1
+  Conducting: 1
+  Burnrate: 0
+  BurningTemperatureThreshold: 5000
+  HeatTransferSpeedMultiplier: 1
+  SizzleSounds: []
+  SoftImpact:
+  - {fileID: 8300000, guid: e317aca8cdf542fa9ee8c8f6f3ad8ae2, type: 3}
+  - {fileID: 8300000, guid: 1d6b9e590fc9444682b356bcf42e55f0, type: 3}
+  - {fileID: 8300000, guid: 211937e450784100a01accdd2d122ea8, type: 3}
+  - {fileID: 8300000, guid: 6c4b26f37fe14a7ba997ad06ab0bb7f4, type: 3}
+  - {fileID: 8300000, guid: 3fb5ce4e21fe445ca992d6e5a38bcc58, type: 3}
+  - {fileID: 8300000, guid: 7b7dc42ea2ae4329ab86d240edb05b7c, type: 3}
+  - {fileID: 8300000, guid: 90a98d7fda2a43fe8494e4900e5bfd12, type: 3}
+  - {fileID: 8300000, guid: 5f7699eedbd04e19b41ccd559a419344, type: 3}
+  - {fileID: 8300000, guid: ff2cc9fa198a4d87a44bbd4f915ba310, type: 3}
+  - {fileID: 8300000, guid: 085c1e9e5bba4603ba98e14564dbfc31, type: 3}
+  - {fileID: 8300000, guid: 637d6b40e0814d719903a4343268ecdd, type: 3}
+  - {fileID: 8300000, guid: 530880ee8f4b4247abbd471bf93cddd2, type: 3}
+  - {fileID: 8300000, guid: cba7cbb6fb58444bac43d0c53c71ff50, type: 3}
+  HardImpact:
+  - {fileID: 8300000, guid: 760bded616fe4655bdf1eeaff7ba39d2, type: 3}
+  - {fileID: 8300000, guid: cc5c03e5bf2c4a03954eb3a16f5a5d59, type: 3}
+  - {fileID: 8300000, guid: 9974488f9808404e95fd255c1197d6f6, type: 3}
+  - {fileID: 8300000, guid: 369c28e8634c4d3a994d6fe331400f4e, type: 3}
+  - {fileID: 8300000, guid: 48434892876d409daecaa68f01cf38d9, type: 3}
+  - {fileID: 8300000, guid: d0d8d903a9f74b788aca4479a0c2b791, type: 3}
+  - {fileID: 8300000, guid: 2fff4c771c534a6498d192e21fda10c5, type: 3}
+  ImpactIntensityMutliplier: 1
+  HitVolumeMultiplier: 2
+  SlidingLoop: {fileID: 8300000, guid: 7ab437f0ebb4430696f0da149bbfac39, type: 3}
+  StabSound: []
+  ShotImpact: {fileID: 1791060650251976805, guid: b2b5ea4633f44ed2ba52847810fc40fa, type: 2}
+  IsPoolable: 1
